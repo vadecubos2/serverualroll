@@ -12,7 +12,9 @@
       "minecraft:cherry_grove": "2025-03-14 22:05:07 +0000",
       "minecraft:birch_forest": "2025-03-20 21:18:20 +0000",
       "minecraft:beach": "2025-03-12 16:42:26 +0000",
+      "minecraft:sparse_jungle": "2025-03-20 21:28:29 +0000",
       "minecraft:river": "2025-03-12 15:39:10 +0000",
+      "minecraft:lukewarm_ocean": "2025-03-20 21:26:58 +0000",
       "minecraft:snowy_plains": "2025-03-19 15:04:44 +0000",
       "minecraft:stony_shore": "2025-03-19 15:10:14 +0000",
       "minecraft:snowy_taiga": "2025-03-12 20:14:42 +0000",
@@ -21,7 +23,9 @@
       "minecraft:forest": "2025-03-13 14:52:27 +0000",
       "minecraft:frozen_ocean": "2025-03-12 20:14:28 +0000",
       "minecraft:deep_frozen_ocean": "2025-03-12 20:15:14 +0000",
+      "minecraft:jungle": "2025-03-20 21:25:01 +0000",
       "minecraft:snowy_beach": "2025-03-19 15:05:59 +0000",
+      "minecraft:windswept_savanna": "2025-03-20 21:26:09 +0000",
       "minecraft:old_growth_birch_forest": "2025-03-20 21:17:56 +0000",
       "minecraft:deep_dark": "2025-03-18 21:43:02 +0000",
       "minecraft:plains": "2025-03-12 15:38:34 +0000"
@@ -7942,9 +7946,93 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2025-03-20 21:25:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2025-03-20 21:25:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2025-03-20 21:25:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2025-03-20 21:26:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2025-03-20 21:23:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-03-20 21:26:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2025-03-20 21:26:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2025-03-20 21:26:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2025-03-20 21:26:34 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/jungle_window": {
+    "criteria": {
+      "has_ingredient": "2025-03-20 21:26:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2025-03-20 21:26:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2025-03-20 21:26:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-03-20 21:26:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-03-20 21:25:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-03-20 21:26:34 +0000"
     },
     "done": true
   },
