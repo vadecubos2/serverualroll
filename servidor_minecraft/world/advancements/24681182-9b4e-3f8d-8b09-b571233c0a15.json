@@ -10,6 +10,7 @@
       "minecraft:taiga": "2025-03-19 15:06:59 +0000",
       "minecraft:frozen_river": "2025-03-19 15:05:21 +0000",
       "minecraft:cherry_grove": "2025-03-14 22:05:07 +0000",
+      "minecraft:birch_forest": "2025-03-20 21:18:20 +0000",
       "minecraft:beach": "2025-03-12 16:42:26 +0000",
       "minecraft:river": "2025-03-12 15:39:10 +0000",
       "minecraft:snowy_plains": "2025-03-19 15:04:44 +0000",
@@ -21,6 +22,7 @@
       "minecraft:frozen_ocean": "2025-03-12 20:14:28 +0000",
       "minecraft:deep_frozen_ocean": "2025-03-12 20:15:14 +0000",
       "minecraft:snowy_beach": "2025-03-19 15:05:59 +0000",
+      "minecraft:old_growth_birch_forest": "2025-03-20 21:17:56 +0000",
       "minecraft:deep_dark": "2025-03-18 21:43:02 +0000",
       "minecraft:plains": "2025-03-12 15:38:34 +0000"
     },
@@ -7907,6 +7909,42 @@
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_brown_wool": "2025-03-20 19:32:13 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/itemfinder": {
+    "criteria": {
+      "has_item": "2025-03-20 21:09:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-03-20 21:09:07 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/redstone/ender_eye_block": {
+    "criteria": {
+      "has_item": "2025-03-20 21:09:07 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/ender_hand": {
+    "criteria": {
+      "has_alt_item": "2025-03-20 21:09:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-03-20 21:09:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-03-20 21:23:23 +0000"
     },
     "done": true
   },
