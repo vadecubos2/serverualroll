@@ -6948,6 +6948,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2025-03-20 17:59:28 +0000"
+    },
+    "done": true
+  },
   "create:haunted_bell": {
     "criteria": {
       "0": "2025-03-20 17:19:45 +0000"
