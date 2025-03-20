@@ -142,3 +142,8 @@
 [20Mar2025 16:41:46.258] [Server thread/INFO] [Jade/]: Syncing config to Yandrak12 (9e1f7cf8-caa9-3e60-a176-d0322fb27436)
 [20Mar2025 17:19:45.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pakar has made the advancement [Shadow Sense]
 [20Mar2025 17:19:48.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yandrak12 has made the advancement [Shadow Sense]
+[20Mar2025 17:45:43.115] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2c0b04f3[id=<null>,name=Montirizo,properties={},legacy=false] (/127.117.194.152:47065) lost connection: Disconnected
+[20Mar2025 17:45:50.733] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Montirizo[/127.117.194.152:58407] logged in with entity id 59454 at (-412.02947059067856, 70.0, 296.84396623037134)
+[20Mar2025 17:45:50.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo joined the game
+[20Mar2025 17:45:50.791] [Server thread/INFO] [Jade/]: Syncing config to Montirizo (24681182-9b4e-3f8d-8b09-b571233c0a15)
+[20Mar2025 17:46:02.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> que tramais morenos?
