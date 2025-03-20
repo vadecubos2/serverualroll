@@ -11,6 +11,7 @@
       "minecraft:river": "2025-03-12 14:41:36 +0000",
       "minecraft:grove": "2025-03-19 13:36:09 +0000",
       "minecraft:cold_ocean": "2025-03-12 16:32:13 +0000",
+      "minecraft:deep_dark": "2025-03-20 17:51:21 +0000",
       "minecraft:meadow": "2025-03-12 14:37:28 +0000",
       "minecraft:plains": "2025-03-12 14:08:19 +0000"
     },
@@ -6600,6 +6601,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2025-03-20 17:53:40 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/layered_calcite_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2025-03-20 17:43:11 +0000"
@@ -6687,6 +6694,12 @@
   "create:recipes/building_blocks/small_calcite_bricks_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2025-03-20 17:43:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-03-20 17:51:20 +0000"
     },
     "done": true
   },
