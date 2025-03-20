@@ -383,6 +383,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-03-12 15:54:36 +0000",
+      "cooked_mutton": "2025-03-20 19:43:29 +0000",
       "sweet_berries": "2025-03-19 15:14:29 +0000",
       "cooked_beef": "2025-03-12 18:56:05 +0000",
       "beef": "2025-03-13 15:05:20 +0000",
@@ -7879,18 +7880,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brown_banner": {
-    "criteria": {
-      "has_brown_wool": "2025-03-20 19:32:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_bed": {
-    "criteria": {
-      "has_brown_wool": "2025-03-20 19:32:13 +0000"
-    },
-    "done": true
-  },
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2025-03-20 18:06:26 +0000"
@@ -7900,6 +7889,18 @@
   "create:recipes/misc/crafting/appliances/clipboard_clear": {
     "criteria": {
       "has_item": "2025-03-20 18:41:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2025-03-20 19:32:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2025-03-20 19:32:13 +0000"
     },
     "done": true
   },
