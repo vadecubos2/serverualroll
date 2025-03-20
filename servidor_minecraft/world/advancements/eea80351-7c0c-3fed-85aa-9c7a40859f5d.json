@@ -7011,15 +7011,9 @@
     },
     "done": true
   },
-  "botania:recipes/tools/speed_up_belt": {
+  "minecraft:story/follow_ender_eye": {
     "criteria": {
-      "has_item": "2025-03-20 21:52:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-03-20 21:52:57 +0000"
+      "in_stronghold": "2025-03-20 21:49:52 +0000"
     },
     "done": true
   },
@@ -7029,21 +7023,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
-      "has_blue_orchid": "2025-03-20 22:46:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/follow_ender_eye": {
-    "criteria": {
-      "in_stronghold": "2025-03-20 21:49:52 +0000"
+      "has_smithing_trim_template": "2025-03-20 21:52:57 +0000"
     },
     "done": true
   },
   "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
     "criteria": {
       "has_eye_armor_trim_smithing_template": "2025-03-20 21:52:57 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/speed_up_belt": {
+    "criteria": {
+      "has_item": "2025-03-20 21:52:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-03-20 22:46:12 +0000"
     },
     "done": true
   },

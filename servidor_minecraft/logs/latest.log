@@ -1,400 +1,87 @@
-[20Mar2025 21:08:06.666] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[20Mar2025 21:08:06.669] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[20Mar2025 21:08:07.393] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[20Mar2025 21:08:07.446] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/serverualroll/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[20Mar2025 21:08:07.689] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverualroll/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[20Mar2025 21:08:07.691] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverualroll/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[20Mar2025 21:08:07.693] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverualroll/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[20Mar2025 21:08:07.695] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverualroll/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[20Mar2025 21:08:07.889] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[20Mar2025 21:08:07.890] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[20Mar2025 21:08:09.535] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[20Mar2025 21:08:09.580] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[20Mar2025 21:08:09.735] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 71 options available, 0 override(s) found
-[20Mar2025 21:08:10.419] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[20Mar2025 21:08:16.340] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[20Mar2025 21:08:16.362] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[20Mar2025 21:08:17.057] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[20Mar2025 21:08:17.057] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[20Mar2025 21:08:20.521] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
-[20Mar2025 21:08:20.521] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
-[20Mar2025 21:08:20.522] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
-[20Mar2025 21:08:20.522] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
-[20Mar2025 21:08:20.522] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
-[20Mar2025 21:08:20.522] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
-[20Mar2025 21:08:20.522] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
-[20Mar2025 21:08:20.522] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
-[20Mar2025 21:08:20.525] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
-[20Mar2025 21:08:20.526] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
-[20Mar2025 21:08:20.578] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
-[20Mar2025 21:08:20.713] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[20Mar2025 21:08:20.760] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[20Mar2025 21:08:20.767] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[20Mar2025 21:08:20.771] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
-[20Mar2025 21:08:20.771] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
-[20Mar2025 21:08:20.772] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
-[20Mar2025 21:08:20.774] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
-[20Mar2025 21:08:20.807] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[20Mar2025 21:08:21.224] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
-[20Mar2025 21:08:21.225] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
-[20Mar2025 21:08:21.344] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.24 Target: null
-[20Mar2025 21:08:21.345] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[20Mar2025 21:08:21.520] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[20Mar2025 21:08:23.869] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20Mar2025 21:08:25.611] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/serverualroll/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23143!/assets/.mcassetsroot' uses unexpected schema
-[20Mar2025 21:08:25.611] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/serverualroll/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23143!/data/.mcassetsroot' uses unexpected schema
-[20Mar2025 21:08:27.874] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 35 recipes
-[20Mar2025 21:08:27.995] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3439 advancements
-[20Mar2025 21:08:28.003] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[20Mar2025 21:08:28.008] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[20Mar2025 21:08:28.025] [main/INFO] [botania/]: Loaded 30 Loonium configurations
-[20Mar2025 21:08:29.756] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[20Mar2025 21:08:29.756] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[20Mar2025 21:08:29.757] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[20Mar2025 21:08:29.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[20Mar2025 21:08:29.840] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[20Mar2025 21:08:29.862] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[20Mar2025 21:08:29.941] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20Mar2025 21:08:29.941] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[20Mar2025 21:08:29.941] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20Mar2025 21:08:29.942] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[20Mar2025 21:08:30.009] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[20Mar2025 21:08:33.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[20Mar2025 21:08:37.681] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Mar2025 21:08:37.725] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Mar2025 21:08:37.743] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Mar2025 21:08:37.754] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Mar2025 21:08:37.768] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Mar2025 21:08:37.778] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Mar2025 21:08:37.783] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Mar2025 21:08:37.792] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Mar2025 21:08:37.810] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Mar2025 21:08:37.821] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Mar2025 21:08:38.011] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Mar2025 21:08:38.511] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
-[20Mar2025 21:08:38.926] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5916 ms
-[20Mar2025 21:08:38.927] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.972s)! For help, type "help"
-[20Mar2025 21:08:39.008] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[20Mar2025 21:08:39.010] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[20Mar2025 21:08:46.625] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[20Mar2025 21:08:46.790] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Montirizo[/127.117.194.152:47161] logged in with entity id 145 at (-409.35907816901425, 70.0, 297.20789767845577)
-[20Mar2025 21:08:46.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo joined the game
-[20Mar2025 21:08:46.919] [Server thread/INFO] [Jade/]: Syncing config to Montirizo (24681182-9b4e-3f8d-8b09-b571233c0a15)
-[20Mar2025 21:08:48.933] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2213ms or 44 ticks behind
-[20Mar2025 21:08:58.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Set own game mode to Creative Mode]
-[20Mar2025 21:09:13.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Set own game mode to Survival Mode]
-[20Mar2025 21:09:14.587] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Montirizo lost connection: Disconnected
-[20Mar2025 21:09:14.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo left the game
-[20Mar2025 21:09:20.474] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Montirizo[/127.117.194.152:53737] logged in with entity id 645 at (-409.35907816901425, 70.0, 297.20789767845577)
-[20Mar2025 21:09:20.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo joined the game
-[20Mar2025 21:09:20.513] [Server thread/INFO] [Jade/]: Syncing config to Montirizo (24681182-9b4e-3f8d-8b09-b571233c0a15)
-[20Mar2025 21:22:51.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Set own game mode to Creative Mode]
-[20Mar2025 21:23:07.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Set own game mode to Survival Mode]
-[20Mar2025 21:23:08.228] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Montirizo lost connection: Disconnected
-[20Mar2025 21:23:08.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo left the game
-[20Mar2025 21:23:14.102] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Montirizo[/127.117.194.152:40075] logged in with entity id 6656 at (1049.8916713664973, 83.0, 891.1582306630191)
-[20Mar2025 21:23:14.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo joined the game
-[20Mar2025 21:23:14.124] [Server thread/INFO] [Jade/]: Syncing config to Montirizo (24681182-9b4e-3f8d-8b09-b571233c0a15)
-[20Mar2025 21:23:23.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo has made the advancement [Best Friends Forever]
-[20Mar2025 21:34:10.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Set own game mode to Spectator Mode]
-[20Mar2025 21:34:36.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo has made the advancement [Eye Spy]
-[20Mar2025 21:34:40.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Set own game mode to Survival Mode]
-[20Mar2025 21:37:28.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Set own game mode to Creative Mode]
-[20Mar2025 21:39:17.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Set own game mode to Survival Mode]
-[20Mar2025 21:39:18.981] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Montirizo lost connection: Disconnected
-[20Mar2025 21:39:18.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo left the game
-[20Mar2025 21:39:24.838] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Montirizo[/127.117.194.152:52969] logged in with entity id 11141 at (-379.1521116302483, 73.9375, 255.6038308187525)
-[20Mar2025 21:39:24.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo joined the game
-[20Mar2025 21:39:24.859] [Server thread/INFO] [Jade/]: Syncing config to Montirizo (24681182-9b4e-3f8d-8b09-b571233c0a15)
-[20Mar2025 21:43:19.298] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Pakar[/127.8.43.195:53111] logged in with entity id 13088 at (-438.84667047220927, 77.5625, 295.2532337442513)
-[20Mar2025 21:43:19.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pakar joined the game
-[20Mar2025 21:43:19.369] [Server thread/INFO] [Jade/]: Syncing config to Pakar (eea80351-7c0c-3fed-85aa-9c7a40859f5d)
-[20Mar2025 21:43:27.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> btw
-[20Mar2025 21:43:36.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> durante tu idea he encontrado una cosa
-[20Mar2025 21:43:45.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> TU ida
-[20Mar2025 21:44:03.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> y lo he traido aqui
-[20Mar2025 21:44:14.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> y en mi casa tengoooo cacao
-[20Mar2025 21:44:30.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> y lo mejor
-[20Mar2025 21:44:32.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> durante mi viaje
-[20Mar2025 21:44:42.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> he descubierto que el resto del mundo está guay
-[20Mar2025 21:44:45.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> he encontrado el end
-[20Mar2025 21:44:53.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ah no sabes lo que es
-[20Mar2025 21:44:55.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> el portal
-[20Mar2025 21:45:01.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> está preparado
-[20Mar2025 21:45:04.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> me llevé los ojos
-[20Mar2025 21:45:14.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> da igual si se donde es
-[20Mar2025 21:45:22.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> lo que nose
-[20Mar2025 21:45:33.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> mira ve a mi casa
-[20Mar2025 21:45:53.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> vete pabajo y busca en el almacen un pergamino
-[20Mar2025 21:46:15.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no
-[20Mar2025 21:46:20.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> esq cogí la de aquí que no usamos
-[20Mar2025 21:46:23.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> y la llevé allí
-[20Mar2025 21:46:30.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero no se
-[20Mar2025 21:46:32.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> si podeis usarla
-[20Mar2025 21:47:03.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> aqui
-[20Mar2025 21:47:10.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> voy a ver
-[20Mar2025 21:47:13.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> si lo puedo enlazar con ese
-[20Mar2025 21:47:17.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> vas, y lo guardas
-[20Mar2025 21:47:25.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> voy a ver
-[20Mar2025 21:48:02.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> toma
-[20Mar2025 21:48:18.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> nono
-[20Mar2025 21:48:21.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> usalo
-[20Mar2025 21:48:24.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> y guarda la waystone
-[20Mar2025 21:48:29.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero puedes usarla para vovler aqui
-[20Mar2025 21:48:32.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> nono mira
-[20Mar2025 21:48:35.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> manten y ve alli
-[20Mar2025 21:48:36.332] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pakar moved too quickly! 25.45710493845968,6.5625,-13.878198527609356
-[20Mar2025 21:48:43.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> enserio?
-[20Mar2025 21:48:50.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pffff
-[20Mar2025 21:48:55.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pss el portal está lejillos
-[20Mar2025 21:49:03.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> joe
-[20Mar2025 21:49:13.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> y no te deja ir al del end
-[20Mar2025 21:49:18.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> end se llama
-[20Mar2025 21:49:26.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pss tendrás que ir allí
-[20Mar2025 21:49:33.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> si
-[20Mar2025 21:49:36.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> puedo puedo
-[20Mar2025 21:49:45.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> haz tp
-[20Mar2025 21:49:51.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Pakar: Teleported Pakar to Montirizo]
-[20Mar2025 21:49:52.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pakar has made the advancement [Eye Spy]
-[20Mar2025 21:50:04.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no he mirado el resto de la mazmorra
-[20Mar2025 21:50:38.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> yo vine por aqui
-[20Mar2025 21:50:46.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> que va
-[20Mar2025 21:50:48.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> todo neuvo
-[20Mar2025 21:51:33.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> hostia
-[20Mar2025 21:52:25.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> el panchito
-[20Mar2025 21:52:37.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> franco
-[20Mar2025 21:52:49.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> las telarañas se quitan con espada
-[20Mar2025 21:53:10.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> dile que se meta no?
-[20Mar2025 21:53:25.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> con mods
-[20Mar2025 21:53:35.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> daaale
-[20Mar2025 21:53:41.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> daaaale hombre dale
-[20Mar2025 21:53:53.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> dale
-[20Mar2025 21:53:58.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no le tenga miedo
-[20Mar2025 21:54:20.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> si quiere que se lo monte que lo diga hombre
-[20Mar2025 21:54:43.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> github
-[20Mar2025 21:55:08.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> mucho dijo
-[20Mar2025 21:56:05.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> gracias a el tengo fibra
-[20Mar2025 21:56:15.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero puso la piedra
-[20Mar2025 21:56:51.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> un grande
-[20Mar2025 21:57:30.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> hostia
-[20Mar2025 21:57:52.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> el forge 1.20.1 le hace falta eso si
-[20Mar2025 21:58:19.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> dale a la t
-[20Mar2025 21:58:21.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> y te sale el chat
-[20Mar2025 21:58:43.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ahora no se por donde es
-[20Mar2025 21:58:46.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> busca escaleras
-[20Mar2025 21:58:55.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> eh eh por aqui
-[20Mar2025 21:59:10.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> lo he cogido ya
-[20Mar2025 21:59:19.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pora qui
-[20Mar2025 22:00:06.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> es un installer
-[20Mar2025 22:00:42.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> cuidado con las piedras
-[20Mar2025 22:00:46.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> que algunas tieneeeeen
-[20Mar2025 22:00:47.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> bicho
-[20Mar2025 22:00:55.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pss si
-[20Mar2025 22:00:59.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> si pones el raton
-[20Mar2025 22:01:01.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> te pone si está infestada
-[20Mar2025 22:01:12.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pss no pero se reproducen como hdp
-[20Mar2025 22:01:46.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> nono espera
-[20Mar2025 22:01:56.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> por aqui creo que hay mas
-[20Mar2025 22:02:14.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> mira por aqui vine
-[20Mar2025 22:02:21.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> nono
-[20Mar2025 22:02:23.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> con las enders
-[20Mar2025 22:02:37.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no creo que hay mas camino
-[20Mar2025 22:03:04.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ahora no hay ni una infestada
-[20Mar2025 22:03:09.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> psss igual con toque de seda si
-[20Mar2025 22:03:29.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no pero me podría llevar la whitelist tmb
-[20Mar2025 22:03:44.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> hombre yo me llevo el backup entero siempre
-[20Mar2025 22:03:53.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> vamos a coger el waypoint
-[20Mar2025 22:04:12.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> si
-[20Mar2025 22:04:25.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> si
-[20Mar2025 22:04:36.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ah hostia
-[20Mar2025 22:04:37.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> psss
-[20Mar2025 22:04:38.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> joe
-[20Mar2025 22:04:57.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ahora cuando entre le hago tp
-[20Mar2025 22:05:35.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ah bueno mira
-[20Mar2025 22:05:40.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> solucioné el problema del virus
-[20Mar2025 22:05:51.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> me llevé el virus
-[20Mar2025 22:05:54.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> allí
-[20Mar2025 22:06:09.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> vente a la estacion
-[20Mar2025 22:06:31.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> subase
-[20Mar2025 22:06:59.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> what
-[20Mar2025 22:07:02.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> y ese sonido
-[20Mar2025 22:07:45.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> bajese
-[20Mar2025 22:08:58.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero escuchame
-[20Mar2025 22:09:00.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no spawnea
-[20Mar2025 22:09:08.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> porq solo spawnea
-[20Mar2025 22:09:10.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> en su bioma
-[20Mar2025 22:09:18.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> si osea
-[20Mar2025 22:09:20.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ha salido elb loque
-[20Mar2025 22:09:23.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> y digoooo pss que salga
-[20Mar2025 22:09:26.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> y entonces no salia
-[20Mar2025 22:09:30.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> lo he buscado y efectivamente
-[20Mar2025 22:09:31.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> decepcionante
-[20Mar2025 22:09:57.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> hombre no se si puedo hacer que esto sea ese bioma
-[20Mar2025 22:10:01.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> sería jugar a ser dios
-[20Mar2025 22:10:44.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> vamos de libros...
-[20Mar2025 22:11:05.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> 7 stacks
-[20Mar2025 22:11:18.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> se puede recuperar la biblioteca de alejandría
-[20Mar2025 22:13:32.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> a appdata
-[20Mar2025 22:13:36.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> a minecraft mods
-[20Mar2025 22:13:50.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> aaah
-[20Mar2025 22:13:57.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> puedes coger una armadura
-[20Mar2025 22:14:03.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> y tallarle dibujos
-[20Mar2025 22:14:05.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ese es de ojos
-[20Mar2025 22:14:12.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> lo que nose
-[20Mar2025 22:14:17.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> es si eso lo puedes usar con las armaduras del mod
-[20Mar2025 22:15:19.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ande estas
-[20Mar2025 22:15:58.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> unq ue de que
-[20Mar2025 22:16:53.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> que hace eso
-[20Mar2025 22:16:59.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo has made the advancement [Shadow Sense]
-[20Mar2025 22:17:12.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> y aparecen?
-[20Mar2025 22:17:19.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> aaaaaah
-[20Mar2025 22:17:27.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> o aunq no sea de noche
-[20Mar2025 22:17:33.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> esq el spawn de bichos malos
-[20Mar2025 22:17:41.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> aparece cuando la iluminación baja deeeee 7 creo
-[20Mar2025 22:17:47.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> entonces la campana te dice cuales son
-[20Mar2025 22:17:50.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> está muy bien
-[20Mar2025 22:18:03.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> un poco especifico eh
-[20Mar2025 22:18:36.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pongo una antorcha que no me cuesta nada oooooooooooooooooooooo una campana maldita
-[20Mar2025 22:21:47.749] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [carryon:carryonpackets,sophisticatedbackpacks:channel,storagedrawers:main_channel,sophisticatedcore:channel,patchouli:main,curios:main,botania:main,create:main,waystones:network] rejected vanilla connections
-[20Mar2025 22:21:47.750] [Netty Epoll Server IO #5/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.64.131.197:35599] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
-[20Mar2025 22:22:16.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> buscandolo en internet vale
-[20Mar2025 22:22:23.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ya yo tmb
-[20Mar2025 22:23:04.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> a ver voy a mirar
-[20Mar2025 22:23:05.632] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Montirizo lost connection: Disconnected
-[20Mar2025 22:23:05.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo left the game
-[20Mar2025 22:26:18.897] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Montirizo[/127.117.194.152:39523] logged in with entity id 29433 at (-380.9576722715521, 75.5, 251.30000001192093)
-[20Mar2025 22:26:18.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo joined the game
-[20Mar2025 22:26:18.951] [Server thread/INFO] [Jade/]: Syncing config to Montirizo (24681182-9b4e-3f8d-8b09-b571233c0a15)
-[20Mar2025 22:26:37.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> chisme chisme
-[20Mar2025 22:28:01.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> what a moment
-[20Mar2025 22:28:47.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> joder
-[20Mar2025 22:31:25.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> el lore es una cebolla?
-[20Mar2025 22:32:08.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> que
-[20Mar2025 22:32:15.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> yo si pero porq lo compre
-[20Mar2025 22:32:52.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> el tren acaba de matar un enderman
-[20Mar2025 22:33:12.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> aaaah los cofres?
-[20Mar2025 22:33:24.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ah poh
-[20Mar2025 22:33:31.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ahora lo hago entre que entra el
-[20Mar2025 22:33:54.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pss si pero habría que matar al dragon
-[20Mar2025 22:33:59.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> si
-[20Mar2025 22:34:09.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero llevamos el equivalente a hierro
-[20Mar2025 22:34:18.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> eso dijo juan creo
-[20Mar2025 22:34:23.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> hay que acordar un día
-[20Mar2025 22:34:57.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> el catalizador de sculk
-[20Mar2025 22:35:11.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> basicamente hace que si mato un bicho en ese bloque se reproduce
-[20Mar2025 22:35:12.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> por esporas
-[20Mar2025 22:35:23.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> la virulencia
-[20Mar2025 22:36:03.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> yo nací ayer
-[20Mar2025 22:36:19.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> febrero
-[20Mar2025 22:36:20.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> 6
-[20Mar2025 22:36:26.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ya no vale
-[20Mar2025 22:36:29.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> xd
-[20Mar2025 22:36:38.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> enserio no hay mesa de crafteo aqui abajo?
-[20Mar2025 22:36:45.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero este máquina
-[20Mar2025 22:36:54.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> encima
-[20Mar2025 22:36:58.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ya decia yo digo
-[20Mar2025 22:37:00.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no me sale
-[20Mar2025 22:37:20.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> FILHO DA PUUUTA
-[20Mar2025 22:37:44.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> joe
-[20Mar2025 22:38:08.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> eh?
-[20Mar2025 22:38:13.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> sep
-[20Mar2025 22:38:26.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero hierro tenemos para cagar
-[20Mar2025 22:38:41.685] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Palla94[/127.138.13.245:49857] logged in with entity id 34914 at (64.5, 79.0, 56.5)
-[20Mar2025 22:38:41.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Palla94 joined the game
-[20Mar2025 22:38:41.721] [Server thread/INFO] [Jade/]: Syncing config to Palla94 (2efd61e9-87c5-3800-b6c5-855f1c2c3b70)
-[20Mar2025 22:38:47.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> espera
-[20Mar2025 22:38:49.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no te muevas
-[20Mar2025 22:38:52.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> nono
-[20Mar2025 22:38:53.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> espera
-[20Mar2025 22:39:33.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> quiero que la entrada sea epica
-[20Mar2025 22:39:35.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> yo le traigo
-[20Mar2025 22:39:53.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> va a venir desde la montaña
-[20Mar2025 22:40:26.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Teleported Montirizo to Palla94]
-[20Mar2025 22:40:31.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> mierda
-[20Mar2025 22:40:34.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> era al reves jeje
-[20Mar2025 22:40:35.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> espera
-[20Mar2025 22:40:40.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Teleported Montirizo to Pakar]
-[20Mar2025 22:40:44.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Set own game mode to Creative Mode]
-[20Mar2025 22:40:56.762] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=76, y=87, z=32}
-[20Mar2025 22:40:56.935] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=76, y=87, z=32}
-[20Mar2025 22:40:57.982] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=75, y=87, z=31} BlockPos{x=75, y=86, z=32}
-[20Mar2025 22:40:58.262] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=75, y=87, z=31} BlockPos{x=75, y=86, z=32}
-[20Mar2025 22:40:58.714] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=75, y=87, z=31} BlockPos{x=75, y=86, z=32}
-[20Mar2025 22:40:58.768] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=75, y=87, z=31} BlockPos{x=75, y=86, z=32}
-[20Mar2025 22:40:58.916] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=75, y=87, z=31} BlockPos{x=75, y=86, z=32}
-[20Mar2025 22:40:59.214] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=75, y=87, z=31} BlockPos{x=75, y=86, z=32}
-[20Mar2025 22:40:59.516] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=75, y=87, z=31} BlockPos{x=75, y=86, z=32}
-[20Mar2025 22:41:00.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Set own game mode to Survival Mode]
-[20Mar2025 22:41:09.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Palla94> Pene
-[20Mar2025 22:41:12.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Teleported Palla94 to Montirizo]
-[20Mar2025 22:41:58.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> que se va
-[20Mar2025 22:42:09.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> quietos
-[20Mar2025 22:42:15.065] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pakar moved wrongly!
-[20Mar2025 22:42:15.454] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pakar moved wrongly!
-[20Mar2025 22:42:17.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> DIOS
-[20Mar2025 22:42:20.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> se la ha jugado
-[20Mar2025 22:42:38.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ahora cuando venga nos subimos como las personas que no son de la india
-[20Mar2025 22:43:05.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ya viene
-[20Mar2025 22:43:13.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> que viene
-[20Mar2025 22:43:31.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> click derecho al asiento
-[20Mar2025 22:43:43.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> COMO EN LA INDIA
-[20Mar2025 22:44:17.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ahora cuando pare dale al shift
-[20Mar2025 22:44:27.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> yo le doy shift
-[20Mar2025 22:44:40.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> aaah vente
-[20Mar2025 22:44:51.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> que tiene que tocar la waystone
-[20Mar2025 22:45:35.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> o murio
-[20Mar2025 22:46:36.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> me vale
-[20Mar2025 22:46:55.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> quitalo
-[20Mar2025 22:48:01.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> por que usas la puerta'
-[20Mar2025 22:48:03.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ?
-[20Mar2025 22:48:08.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> mira
-[20Mar2025 22:48:15.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> asi se entra
-[20Mar2025 22:48:50.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ahora la campaña es en minecraft
-[20Mar2025 22:49:44.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> vente mira la fabrica
-[20Mar2025 22:49:54.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ah hostia
-[20Mar2025 22:49:56.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> el end
-[20Mar2025 22:50:44.301] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SF_KindPrime[/127.9.163.31:45261] logged in with entity id 40936 at (-449.01755376850207, 71.0, 341.02505231075395)
-[20Mar2025 22:50:44.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SF_KindPrime joined the game
-[20Mar2025 22:50:44.349] [Server thread/INFO] [Jade/]: Syncing config to SF_KindPrime (8ac37f11-89c7-3573-a3ef-92766c917c7b)
-[20Mar2025 22:50:51.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> y mira
-[20Mar2025 22:51:08.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> te estaras preguntando
-[20Mar2025 22:51:11.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> cuanto puede bajar esto
-[20Mar2025 22:51:13.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> si
-[20Mar2025 22:51:20.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Palla94> Espero que atraviese la bedrock
-[20Mar2025 22:51:25.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Palla94> xD
-[20Mar2025 22:51:28.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> casi
-[20Mar2025 22:51:35.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SF_KindPrime fell from a high place
-[20Mar2025 22:52:00.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> a quien hemos atropellado?
-[20Mar2025 22:52:11.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> quien se ha matado en el ascensor'
-[20Mar2025 22:52:41.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> rueda del raton
-[20Mar2025 22:52:50.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> rueda del raton y click derecho
-[20Mar2025 22:53:36.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> esa es otra cueva
-[20Mar2025 22:54:28.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> que está pasando dios mio
-[20Mar2025 22:54:42.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> lo ha conseguido?
-[20Mar2025 22:55:01.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> subir
-[20Mar2025 22:55:20.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> eso era lo que quería decir
-[20Mar2025 22:55:31.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> me fui de aventuras con enderpearls y está localizada la endportal
-[20Mar2025 22:55:53.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> literal
-[20Mar2025 22:55:57.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> en fin esta noche me mato
-[20Mar2025 22:56:18.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> oye no corta?
-[20Mar2025 22:56:20.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> se ha roto?
-[20Mar2025 22:57:54.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> xd
-[20Mar2025 22:58:11.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> va a caer la de dios
-[20Mar2025 22:59:03.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Palla94 has made the advancement [Inner Arts]
-[20Mar2025 23:00:06.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> me voy a ir a la cama
-[20Mar2025 23:00:14.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> estad pendientes porq se caerá el server eh
-[20Mar2025 23:00:24.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no puedo :(
-[20Mar2025 23:00:26.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> fui el lunes
-[20Mar2025 23:00:35.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> lo sé pero esq no puedo ir
-[20Mar2025 23:00:44.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> angelico
-[20Mar2025 23:00:49.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> toma anda
-[20Mar2025 23:01:00.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> eso eeeeeh
-[20Mar2025 23:01:07.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> avisad a jaime para que os de el codigo del github vale?
-[20Mar2025 23:01:14.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> la segunda?
-[20Mar2025 23:01:16.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> eso
-[20Mar2025 23:01:18.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pss venga
-[20Mar2025 23:01:23.134] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Montirizo lost connection: Disconnected
-[20Mar2025 23:01:23.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo left the game
-[20Mar2025 23:02:18.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Palla94 has made the advancement [Monster Hunter]
-[20Mar2025 23:03:50.085] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Palla94 lost connection: Disconnected
-[20Mar2025 23:03:50.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Palla94 left the game
+[20Mar2025 23:37:41.236] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[20Mar2025 23:37:41.240] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[20Mar2025 23:37:42.008] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[20Mar2025 23:37:42.073] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/serverualroll/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[20Mar2025 23:37:42.302] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverualroll/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[20Mar2025 23:37:42.304] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverualroll/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Mar2025 23:37:42.305] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverualroll/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Mar2025 23:37:42.308] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverualroll/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Mar2025 23:37:42.488] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[20Mar2025 23:37:42.490] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[20Mar2025 23:37:44.272] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20Mar2025 23:37:44.319] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[20Mar2025 23:37:44.475] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 71 options available, 0 override(s) found
+[20Mar2025 23:37:45.060] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[20Mar2025 23:37:52.067] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[20Mar2025 23:37:52.095] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[20Mar2025 23:37:53.001] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[20Mar2025 23:37:53.001] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[20Mar2025 23:37:56.264] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[20Mar2025 23:37:56.265] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[20Mar2025 23:37:56.265] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[20Mar2025 23:37:56.265] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[20Mar2025 23:37:56.265] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[20Mar2025 23:37:56.265] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[20Mar2025 23:37:56.265] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[20Mar2025 23:37:56.266] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[20Mar2025 23:37:56.266] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[20Mar2025 23:37:56.266] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[20Mar2025 23:37:56.311] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[20Mar2025 23:37:56.474] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[20Mar2025 23:37:56.497] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[20Mar2025 23:37:56.504] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[20Mar2025 23:37:56.506] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[20Mar2025 23:37:56.507] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[20Mar2025 23:37:56.508] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
+[20Mar2025 23:37:56.509] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[20Mar2025 23:37:56.530] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[20Mar2025 23:37:57.183] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
+[20Mar2025 23:37:57.184] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[20Mar2025 23:37:57.320] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.24 Target: null
+[20Mar2025 23:37:57.320] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20Mar2025 23:37:57.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[20Mar2025 23:37:59.506] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Mar2025 23:38:01.466] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/serverualroll/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23143!/assets/.mcassetsroot' uses unexpected schema
+[20Mar2025 23:38:01.466] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/serverualroll/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23143!/data/.mcassetsroot' uses unexpected schema
+[20Mar2025 23:38:03.568] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 35 recipes
+[20Mar2025 23:38:03.721] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3439 advancements
+[20Mar2025 23:38:03.729] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[20Mar2025 23:38:03.734] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[20Mar2025 23:38:03.751] [main/INFO] [botania/]: Loaded 30 Loonium configurations
+[20Mar2025 23:38:05.516] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[20Mar2025 23:38:05.517] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20Mar2025 23:38:05.517] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[20Mar2025 23:38:05.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Mar2025 23:38:05.603] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[20Mar2025 23:38:05.626] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[20Mar2025 23:38:05.706] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20Mar2025 23:38:05.706] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[20Mar2025 23:38:05.706] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20Mar2025 23:38:05.707] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[20Mar2025 23:38:05.774] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20Mar2025 23:38:08.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Mar2025 23:38:11.380] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Mar2025 23:38:11.392] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Mar2025 23:38:11.400] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Mar2025 23:38:11.405] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Mar2025 23:38:11.420] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Mar2025 23:38:11.434] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Mar2025 23:38:11.522] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Mar2025 23:38:12.116] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Mar2025 23:38:12.555] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Mar2025 23:38:13.009] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[20Mar2025 23:38:13.509] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
+[20Mar2025 23:38:13.831] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5323 ms
+[20Mar2025 23:38:13.832] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.110s)! For help, type "help"
+[20Mar2025 23:38:13.994] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20Mar2025 23:38:13.997] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[20Mar2025 23:38:18.962] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[20Mar2025 23:38:19.103] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SF_KindPrime[/127.9.163.31:59523] logged in with entity id 137 at (-455.43530506267973, 71.0, 342.5958705964456)
+[20Mar2025 23:38:19.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SF_KindPrime joined the game
+[20Mar2025 23:38:19.223] [Server thread/INFO] [Jade/]: Syncing config to SF_KindPrime (8ac37f11-89c7-3573-a3ef-92766c917c7b)
+[20Mar2025 23:38:21.630] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2574ms or 51 ticks behind
+[20Mar2025 23:39:02.180] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4a6c63b0[id=<null>,name=Pakar,properties={},legacy=false] (/127.8.43.195:48963) lost connection: Disconnected
+[20Mar2025 23:39:47.111] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Pakar[/127.8.43.195:53397] logged in with entity id 20033 at (-444.3710009230215, 71.0, 339.40132433703496)
+[20Mar2025 23:39:47.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pakar joined the game
+[20Mar2025 23:39:47.247] [Server thread/INFO] [Jade/]: Syncing config to Pakar (eea80351-7c0c-3fed-85aa-9c7a40859f5d)
+[20Mar2025 23:41:27.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SF_KindPrime has made the advancement [Sneak 100]
