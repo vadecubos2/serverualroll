@@ -1,0 +1,7 @@
+#This is an example boolean property
+exampleBoolean = true
+#Range: > -2147483648
+exampleInt = 42
+exampleString = "Hello World"
+exampleMultilineString = "Hello World"
+
