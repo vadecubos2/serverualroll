@@ -6576,5 +6576,11 @@
     },
     "done": true
   },
+  "create:haunted_bell": {
+    "criteria": {
+      "0": "2025-03-20 17:19:48 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
