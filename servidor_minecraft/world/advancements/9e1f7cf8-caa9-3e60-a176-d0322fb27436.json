@@ -7,10 +7,19 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2025-03-21 18:02:25 +0000",
+      "minecraft:frozen_river": "2025-03-21 17:50:07 +0000",
       "minecraft:beach": "2025-03-12 16:32:21 +0000",
       "minecraft:river": "2025-03-12 14:41:36 +0000",
+      "minecraft:snowy_plains": "2025-03-21 17:49:16 +0000",
+      "minecraft:snowy_taiga": "2025-03-21 17:49:15 +0000",
       "minecraft:grove": "2025-03-19 13:36:09 +0000",
       "minecraft:cold_ocean": "2025-03-12 16:32:13 +0000",
+      "minecraft:forest": "2025-03-21 17:55:40 +0000",
+      "minecraft:lush_caves": "2025-03-21 18:05:18 +0000",
+      "minecraft:frozen_ocean": "2025-03-21 17:50:40 +0000",
+      "minecraft:deep_frozen_ocean": "2025-03-21 17:52:41 +0000",
+      "minecraft:snowy_beach": "2025-03-21 17:48:23 +0000",
       "minecraft:deep_dark": "2025-03-20 17:51:21 +0000",
       "minecraft:meadow": "2025-03-12 14:37:28 +0000",
       "minecraft:plains": "2025-03-12 14:08:19 +0000"
@@ -6817,9 +6826,45 @@
     },
     "done": true
   },
+  "botania:recipes/decorations/white_shiny_flower": {
+    "criteria": {
+      "has_item": "2025-03-21 17:57:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-03-21 17:47:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-03-21 17:51:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-03-21 17:51:24 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/appliances/schedule_clear": {
     "criteria": {
       "has_item": "2025-03-21 17:45:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-03-21 17:51:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-03-21 17:51:24 +0000"
     },
     "done": true
   },
@@ -6835,15 +6880,135 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2025-03-21 17:51:24 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_1_from_starter": {
     "criteria": {
       "has_stack_upgrade_starter_tier": "2025-03-21 17:36:48 +0000"
     },
     "done": true
   },
+  "botania:recipes/misc/petal_white": {
+    "criteria": {
+      "has_item": "2025-03-21 17:57:05 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/gray_shiny_flower": {
+    "criteria": {
+      "has_item": "2025-03-21 17:58:25 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_gray": {
+    "criteria": {
+      "has_item": "2025-03-21 17:58:25 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/cyan_shiny_flower": {
+    "criteria": {
+      "has_item": "2025-03-21 17:57:30 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_magenta_double": {
+    "criteria": {
+      "has_item": "2025-03-21 17:58:52 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_blue": {
+    "criteria": {
+      "has_item": "2025-03-21 17:57:39 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_blue_double": {
+    "criteria": {
+      "has_item": "2025-03-21 17:57:38 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/blue_shiny_flower": {
+    "criteria": {
+      "has_item": "2025-03-21 17:57:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-03-21 17:51:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_cyan": {
+    "criteria": {
+      "has_item": "2025-03-21 17:57:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-03-21 17:51:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-03-21 17:51:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-03-21 18:05:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2025-03-21 17:57:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-03-21 17:51:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-03-21 18:05:22 +0000"
+    },
+    "done": true
+  },
   "create:conductor": {
     "criteria": {
       "0": "2025-03-21 17:45:06 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_gray_double": {
+    "criteria": {
+      "has_item": "2025-03-21 17:58:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-03-21 18:05:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-03-21 17:47:15 +0000"
     },
     "done": true
   },
