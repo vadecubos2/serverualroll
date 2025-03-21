@@ -105,3 +105,62 @@
 [21Mar2025 11:52:42.905] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
 [21Mar2025 11:52:42.905] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
 [21Mar2025 12:14:45.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock has made the advancement [An Ecstatic Vivace]
+[21Mar2025 13:11:10.699] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jjailock lost connection: Disconnected
+[21Mar2025 13:11:10.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock left the game
+[21Mar2025 13:11:24.072] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jjailock[/127.69.28.83:33625] logged in with entity id 45443 at (-447.93447768710485, 59.0, 257.7037568753806)
+[21Mar2025 13:11:24.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock joined the game
+[21Mar2025 13:11:24.107] [Server thread/INFO] [Jade/]: Syncing config to jjailock (f04a067b-35a2-3157-b5a3-d0e9ae627fba)
+[21Mar2025 13:11:25.007] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
+[21Mar2025 13:11:25.007] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
+[21Mar2025 13:11:25.007] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
+[21Mar2025 13:11:25.008] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
+[21Mar2025 13:11:25.008] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
+[21Mar2025 13:11:25.008] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
+[21Mar2025 13:11:25.009] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
+[21Mar2025 13:11:25.009] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
+[21Mar2025 13:11:25.009] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
+[21Mar2025 13:16:07.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock has made the advancement [Voluntary Exile]
+[21Mar2025 13:16:12.896] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jjailock lost connection: Disconnected
+[21Mar2025 13:16:12.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock left the game
+[21Mar2025 13:16:45.644] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@42fa0683[id=<null>,name=jjailock,properties={},legacy=false] (/127.69.28.83:35709) lost connection: Disconnected
+[21Mar2025 13:17:06.907] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jjailock[/127.69.28.83:53363] logged in with entity id 47501 at (-462.52319109334377, 74.0, 304.72533643785573)
+[21Mar2025 13:17:06.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock joined the game
+[21Mar2025 13:17:06.929] [Server thread/INFO] [Jade/]: Syncing config to jjailock (f04a067b-35a2-3157-b5a3-d0e9ae627fba)
+[21Mar2025 13:17:07.744] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
+[21Mar2025 13:17:07.744] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
+[21Mar2025 13:17:07.744] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
+[21Mar2025 13:17:07.745] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
+[21Mar2025 13:17:07.745] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
+[21Mar2025 13:17:07.745] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
+[21Mar2025 13:17:07.746] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
+[21Mar2025 13:17:07.746] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
+[21Mar2025 13:17:07.746] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
+[21Mar2025 13:32:00.149] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jjailock lost connection: Disconnected
+[21Mar2025 13:32:00.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock left the game
+[21Mar2025 13:32:41.789] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1c4bd129[id=<null>,name=jjailock,properties={},legacy=false] (/127.69.28.83:54019) lost connection: Disconnected
+[21Mar2025 13:32:47.404] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jjailock[/127.69.28.83:38119] logged in with entity id 54242 at (-436.5200369693235, 67.0, 218.59930123899673)
+[21Mar2025 13:32:47.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock joined the game
+[21Mar2025 13:32:47.427] [Server thread/INFO] [Jade/]: Syncing config to jjailock (f04a067b-35a2-3157-b5a3-d0e9ae627fba)
+[21Mar2025 13:32:48.199] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
+[21Mar2025 13:32:48.200] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
+[21Mar2025 13:32:48.200] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
+[21Mar2025 13:32:48.201] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
+[21Mar2025 13:32:48.201] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
+[21Mar2025 13:32:48.201] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
+[21Mar2025 13:32:48.202] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
+[21Mar2025 13:32:48.202] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
+[21Mar2025 13:32:48.202] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
+[21Mar2025 13:33:00.848] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jjailock lost connection: Disconnected
+[21Mar2025 13:33:00.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock left the game
+[21Mar2025 13:33:43.355] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jjailock[/127.69.28.83:58039] logged in with entity id 54730 at (-436.5200369693235, 67.0, 218.59930123899673)
+[21Mar2025 13:33:43.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock joined the game
+[21Mar2025 13:33:43.376] [Server thread/INFO] [Jade/]: Syncing config to jjailock (f04a067b-35a2-3157-b5a3-d0e9ae627fba)
+[21Mar2025 13:33:44.096] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
+[21Mar2025 13:33:44.096] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
+[21Mar2025 13:33:44.097] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
+[21Mar2025 13:33:44.097] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
+[21Mar2025 13:33:44.097] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
+[21Mar2025 13:33:44.097] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
+[21Mar2025 13:33:44.098] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
+[21Mar2025 13:33:44.098] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
+[21Mar2025 13:33:44.098] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}

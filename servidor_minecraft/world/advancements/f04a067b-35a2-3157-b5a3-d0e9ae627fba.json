@@ -7100,18 +7100,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_quartz_slab": {
-    "criteria": {
-      "has_smooth_quartz": "2025-03-21 13:03:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_bed": {
-    "criteria": {
-      "has_needed_dye": "2025-03-21 12:04:04 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/spruce_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2025-03-21 11:56:40 +0000"
@@ -7121,6 +7109,18 @@
   "minecraft:recipes/building_blocks/stripped_spruce_wood": {
     "criteria": {
       "has_log": "2025-03-21 11:56:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool": {
+    "criteria": {
+      "has_the_recipe": "2025-03-21 12:03:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-03-21 12:04:04 +0000"
     },
     "done": true
   },
@@ -7136,33 +7136,9 @@
     },
     "done": true
   },
-  "botania:main/functional_flower": {
-    "criteria": {
-      "flower": "2025-03-21 12:14:45 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/gray_dye": {
     "criteria": {
       "has_white_dye": "2025-03-21 12:04:04 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/floating_agricarnation": {
-    "criteria": {
-      "has_item": "2025-03-21 12:14:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
-    "criteria": {
-      "has_smooth_quartz": "2025-03-21 13:03:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
-    "criteria": {
-      "has_smooth_quartz": "2025-03-21 13:03:53 +0000"
     },
     "done": true
   },
@@ -7178,33 +7154,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
-    "criteria": {
-      "has_smooth_quartz": "2025-03-21 13:03:53 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_white_carpet": {
     "criteria": {
       "has_needed_dye": "2025-03-21 12:04:04 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/bamboo_cabinet": {
-    "criteria": {
-      "has_bamboo_trapdoor": "2025-03-21 12:06:18 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/eat_nourishing_food": {
-    "criteria": {
-      "nourishment": "2025-03-21 12:04:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_wool": {
-    "criteria": {
-      "has_the_recipe": "2025-03-21 12:03:59 +0000"
     },
     "done": true
   },
@@ -7217,6 +7169,60 @@
   "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
     "criteria": {
       "has_white_dye": "2025-03-21 12:04:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourishment": "2025-03-21 12:04:27 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/bamboo_cabinet": {
+    "criteria": {
+      "has_bamboo_trapdoor": "2025-03-21 12:06:18 +0000"
+    },
+    "done": true
+  },
+  "botania:main/functional_flower": {
+    "criteria": {
+      "flower": "2025-03-21 12:14:45 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/floating_agricarnation": {
+    "criteria": {
+      "has_item": "2025-03-21 12:14:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab": {
+    "criteria": {
+      "has_smooth_quartz": "2025-03-21 13:03:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
+    "criteria": {
+      "has_smooth_quartz": "2025-03-21 13:03:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2025-03-21 13:03:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2025-03-21 13:03:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-03-21 13:16:07 +0000"
     },
     "done": true
   },
