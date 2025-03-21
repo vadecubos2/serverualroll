@@ -203,3 +203,10 @@
 [21Mar2025 16:18:09.412] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
 [21Mar2025 16:31:46.318] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jjailock lost connection: Disconnected
 [21Mar2025 16:31:46.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock left the game
+[21Mar2025 17:15:32.289] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jjailock[/127.69.28.83:35063] logged in with entity id 20555 at (-106.69364224542063, 116.0, 58.38273403413576)
+[21Mar2025 17:15:32.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock joined the game
+[21Mar2025 17:15:32.310] [Server thread/INFO] [Jade/]: Syncing config to jjailock (f04a067b-35a2-3157-b5a3-d0e9ae627fba)
+[21Mar2025 17:16:48.013] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-103, y=116, z=57} BlockPos{x=-101, y=116, z=56}
+[21Mar2025 17:16:48.415] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-103, y=116, z=57} BlockPos{x=-102, y=116, z=57}
+[21Mar2025 17:16:48.416] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-103, y=116, z=57} BlockPos{x=-102, y=116, z=58}
+[21Mar2025 17:16:49.049] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-103, y=116, z=57} BlockPos{x=-101, y=115, z=57}
