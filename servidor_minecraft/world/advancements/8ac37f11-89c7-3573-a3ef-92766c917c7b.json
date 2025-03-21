@@ -8183,5 +8183,209 @@
     },
     "done": true
   },
+  "botania:main/kekimurus_pickup": {
+    "criteria": {
+      "kekimurus": "2025-03-21 18:07:41 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/lens_redirect": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/floating_kekimurus": {
+    "criteria": {
+      "has_item": "2025-03-21 18:07:41 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/placeholder": {
+    "criteria": {
+      "has_dreamwood": "2025-03-21 18:09:50 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/redstone/spark_changer": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/elementium_sword": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/open_bucket": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/lens_tripwire": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/elementium_shovel": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/elementium_pickaxe": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/elementium_axe": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/elementium_helmet": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/elementium_leggings": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/orange_petal_block": {
+    "criteria": {
+      "has_item": "2025-03-21 18:07:13 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/elementium_shears": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/clip": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:50 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/elementium_block": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/elementium_boots": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_orange_double": {
+    "criteria": {
+      "has_alt_item": "2025-03-21 18:07:13 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/lens_flare": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/redstone/elven_spreader": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dreamwood_twig": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:50 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/elementium_block_deconstruct": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/slime_bottle": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/elementium_hoe": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/lens_firework": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/glimmering_dreamwood_log": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:50 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/dreamwood_planks": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:50 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/dreamwood": {
+    "criteria": {
+      "has_log": "2025-03-21 18:09:50 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/reach_ring": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/orange_petal_block_deconstruct": {
+    "criteria": {
+      "has_item": "2025-03-21 18:07:13 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/drum_gathering": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dye_orange": {
+    "criteria": {
+      "has_item": "2025-03-21 18:07:13 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/elementium_chestplate": {
+    "criteria": {
+      "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

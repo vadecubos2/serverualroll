@@ -5076,3 +5076,10 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [21Mar2025 18:01:18.834] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [21Mar2025 18:06:18.825] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [21Mar2025 18:06:18.833] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Mar2025 18:07:41.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SF_KindPrime has made the advancement [After-School Stride]
+[21Mar2025 18:11:18.832] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Mar2025 18:11:18.840] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Mar2025 18:14:20.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yandrak12: Set own game mode to Spectator Mode]
+[21Mar2025 18:15:58.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yandrak12: Set own game mode to Survival Mode]
+[21Mar2025 18:16:18.818] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Mar2025 18:16:18.825] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

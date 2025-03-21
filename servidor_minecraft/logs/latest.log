@@ -250,3 +250,6 @@
 [21Mar2025 17:55:06.088] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/321381, l='ServerLevel[world]', x=-357.50, y=63.00, z=-359.46] died, message: 'Fletcher hit the ground too hard'
 [21Mar2025 17:55:14.771] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/321031, l='ServerLevel[world]', x=-332.37, y=67.00, z=-380.72] died, message: 'Unemployed hit the ground too hard'
 [21Mar2025 17:55:14.772] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/321032, l='ServerLevel[world]', x=-332.28, y=65.00, z=-381.37] died, message: 'Unemployed hit the ground too hard'
+[21Mar2025 18:07:41.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SF_KindPrime has made the advancement [After-School Stride]
+[21Mar2025 18:14:20.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yandrak12: Set own game mode to Spectator Mode]
+[21Mar2025 18:15:58.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yandrak12: Set own game mode to Survival Mode]
