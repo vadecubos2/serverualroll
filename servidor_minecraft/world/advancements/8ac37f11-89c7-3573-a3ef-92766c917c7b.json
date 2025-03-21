@@ -8369,6 +8369,12 @@
     },
     "done": true
   },
+  "botania:main/elf_lexicon_pickup": {
+    "criteria": {
+      "lexicon": "2025-03-21 18:27:52 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/decorations/drum_gathering": {
     "criteria": {
       "has_item": "2025-03-21 18:09:37 +0000"

@@ -253,3 +253,66 @@
 [21Mar2025 18:07:41.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SF_KindPrime has made the advancement [After-School Stride]
 [21Mar2025 18:14:20.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yandrak12: Set own game mode to Spectator Mode]
 [21Mar2025 18:15:58.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yandrak12: Set own game mode to Survival Mode]
+[21Mar2025 18:18:18.389] [Server thread/INFO] [naturescompass/]: Starting search: 64 sample space, 50000 max samples, 10000 max radius
+[21Mar2025 18:18:18.420] [Server thread/INFO] [naturescompass/]: Search succeeded: 0 radius, 0 samples
+[21Mar2025 18:18:55.921] [Server thread/INFO] [naturescompass/]: Starting search: 64 sample space, 50000 max samples, 10000 max radius
+[21Mar2025 18:18:55.988] [Server thread/INFO] [naturescompass/]: Search succeeded: 819 radius, 188 samples
+[21Mar2025 18:20:20.568] [Server thread/INFO] [naturescompass/]: Starting search: 64 sample space, 50000 max samples, 10000 max radius
+[21Mar2025 18:20:20.839] [Server thread/INFO] [naturescompass/]: Search succeeded: 2734 radius, 2569 samples
+[21Mar2025 18:20:25.823] [Server thread/INFO] [naturescompass/]: Starting search: 64 sample space, 50000 max samples, 10000 max radius
+[21Mar2025 18:20:25.877] [Server thread/INFO] [naturescompass/]: Search succeeded: 404 radius, 70 samples
+[21Mar2025 18:35:13.936] [IO-Worker-229/ERROR] [net.minecraft.world.level.chunk.storage.RegionFile/]: Declared size -1631312005 of chunk [-139, 72] is negative
+[21Mar2025 18:35:14.054] [IO-Worker-226/ERROR] [net.minecraft.world.level.chunk.storage.RegionFile/]: Chunk [-143, 86] stream is truncated: expected 224998799 but read 8187
+[21Mar2025 18:35:14.147] [IO-Worker-228/WARN] [net.minecraft.world.level.chunk.storage.IOWorker/]: Failed to bulk scan chunk [-143, 92]
+java.io.IOException: Invalid tag id: -62
+	at net.minecraft.nbt.TagType$1.m_197591_(TagType.java:58) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.nbt.TagType$1.m_196189_(TagType.java:73) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.nbt.ListTag$1.m_196159_(ListTag.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_196511_(CompoundTag.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.nbt.NbtIo.m_197509_(NbtIo.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileStorage.m_196956_(RegionFileStorage.java:65) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.chunk.storage.IOWorker.m_223499_(IOWorker.java:223) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.chunk.storage.IOWorker.m_223468_(IOWorker.java:236) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.util.thread.StrictQueue$IntRunnable.run(StrictQueue.java:60) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[21Mar2025 18:35:14.149] [Worker-Main-176/WARN] [net.minecraft.world.level.chunk.storage.IOWorker/]: Failed to scan chunk [-143, 92]
+java.util.concurrent.CompletionException: java.io.IOException: Invalid tag id: -62
+	at java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:413) ~[?:?]
+	at java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2118) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.IOWorker.m_223478_(IOWorker.java:143) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.ChunkPos$1.tryAdvance(ChunkPos.java:203) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at java.util.Spliterator.forEachRemaining(Spliterator.java:332) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.IOWorker.m_223503_(IOWorker.java:136) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.IOException: Invalid tag id: -62
+	at net.minecraft.nbt.TagType$1.m_197591_(TagType.java:58) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.nbt.TagType$1.m_196189_(TagType.java:73) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.nbt.ListTag$1.m_196159_(ListTag.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_196511_(CompoundTag.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.nbt.NbtIo.m_197509_(NbtIo.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileStorage.m_196956_(RegionFileStorage.java:65) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.chunk.storage.IOWorker.m_223499_(IOWorker.java:223) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.chunk.storage.IOWorker.m_223468_(IOWorker.java:236) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.util.thread.StrictQueue$IntRunnable.run(StrictQueue.java:60) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[21Mar2025 18:35:14.168] [IO-Worker-228/ERROR] [net.minecraft.world.level.chunk.storage.RegionFile/]: Chunk [-154, 95] stream is truncated: expected 1472833544 but read 4091
+[21Mar2025 18:35:14.168] [IO-Worker-228/WARN] [net.minecraft.world.level.chunk.storage.RegionFile/]: Chunk has both internal and external streams
+[21Mar2025 18:35:14.169] [IO-Worker-228/ERROR] [net.minecraft.world.level.chunk.storage.RegionFile/]: External chunk path ./world/region/c.-150.95.mcc is not file
+[21Mar2025 18:36:35.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yandrak12: Teleported jjailock to Yandrak12]
