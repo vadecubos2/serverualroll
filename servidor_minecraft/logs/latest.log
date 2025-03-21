@@ -418,3 +418,6 @@ Caused by: java.io.IOException: Invalid tag id: -62
 [21Mar2025 19:52:23.714] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jjailock lost connection: Disconnected
 [21Mar2025 19:52:23.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock left the game
 [21Mar2025 19:55:39.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> norte
+[21Mar2025 19:59:47.643] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jjailock[/127.69.28.83:39821] logged in with entity id 1548638 at (-448.1054357897229, 64.0, 258.41343166234384)
+[21Mar2025 19:59:47.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock joined the game
+[21Mar2025 19:59:47.659] [Server thread/INFO] [Jade/]: Syncing config to jjailock (f04a067b-35a2-3157-b5a3-d0e9ae627fba)
