@@ -8225,9 +8225,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-03-21 18:44:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-03-21 18:40:34 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/misc/lens_tripwire": {
     "criteria": {
       "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-03-21 18:40:34 +0000"
     },
     "done": true
   },
@@ -8264,6 +8282,12 @@
   "botania:recipes/decorations/orange_petal_block": {
     "criteria": {
       "has_item": "2025-03-21 18:07:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-03-21 18:40:34 +0000"
     },
     "done": true
   },
@@ -8306,6 +8330,18 @@
   "botania:recipes/redstone/elven_spreader": {
     "criteria": {
       "has_item": "2025-03-21 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2025-03-21 18:40:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_candle": {
+    "criteria": {
+      "has_blue_dye": "2025-03-21 18:40:34 +0000"
     },
     "done": true
   },
@@ -8384,6 +8420,12 @@
   "botania:recipes/misc/dye_orange": {
     "criteria": {
       "has_item": "2025-03-21 18:07:13 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/azulejo_0": {
+    "criteria": {
+      "has_item": "2025-03-21 18:40:34 +0000"
     },
     "done": true
   },

@@ -316,3 +316,63 @@ Caused by: java.io.IOException: Invalid tag id: -62
 [21Mar2025 18:35:14.168] [IO-Worker-228/WARN] [net.minecraft.world.level.chunk.storage.RegionFile/]: Chunk has both internal and external streams
 [21Mar2025 18:35:14.169] [IO-Worker-228/ERROR] [net.minecraft.world.level.chunk.storage.RegionFile/]: External chunk path ./world/region/c.-150.95.mcc is not file
 [21Mar2025 18:36:35.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yandrak12: Teleported jjailock to Yandrak12]
+[21Mar2025 18:54:40.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock was shot by SF_KindPrime
+[21Mar2025 19:00:21.940] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Montirizo[/127.117.194.152:45001] logged in with entity id 1139555 at (-442.8838722890083, 71.0, 332.38351597543556)
+[21Mar2025 19:00:21.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo joined the game
+[21Mar2025 19:00:21.991] [Server thread/INFO] [Jade/]: Syncing config to Montirizo (24681182-9b4e-3f8d-8b09-b571233c0a15)
+[21Mar2025 19:00:36.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> montoya ahora tiene que hacer un esquematic
+[21Mar2025 19:01:56.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no estaba escuchando si me habéis dicho algo
+[21Mar2025 19:02:36.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pss de todo esto
+[21Mar2025 19:02:42.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> eh?
+[21Mar2025 19:02:52.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> como que replicar
+[21Mar2025 19:03:00.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> si pero luego como lo pegas?
+[21Mar2025 19:03:12.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero está todo list?
+[21Mar2025 19:03:21.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> entonces que falta'
+[21Mar2025 19:03:34.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> sisi espera
+[21Mar2025 19:04:59.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero
+[21Mar2025 19:05:03.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> tendré que hacer el esquema primero
+[21Mar2025 19:05:18.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> lo quiero exacto pero alli
+[21Mar2025 19:05:26.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> eso tengo en la mano
+[21Mar2025 19:05:57.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero esq no es solo la casa sabes
+[21Mar2025 19:06:04.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> seguro?
+[21Mar2025 19:06:36.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> hostia y abajo que
+[21Mar2025 19:06:52.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> hmmmm
+[21Mar2025 19:07:04.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> dame las vias del tren
+[21Mar2025 19:07:16.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> porq entonces no copio nada, porq mi casa es todo esto vaya, osea no la uso
+[21Mar2025 19:07:34.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero que la taberna no la usaba apenas
+[21Mar2025 19:07:57.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> hmmm
+[21Mar2025 19:08:01.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> bueno voy a copiar la casa
+[21Mar2025 19:08:12.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no porq igual es mucho coñazo
+[21Mar2025 19:08:15.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> copiaré la casa
+[21Mar2025 19:08:26.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> el que?
+[21Mar2025 19:08:40.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pff nose
+[21Mar2025 19:09:15.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> psss
+[21Mar2025 19:09:29.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> sesq yo me la llevaría entera con lo de abajo y todo pero va a ser una burrada
+[21Mar2025 19:09:50.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no si yo de hacer casas no soy
+[21Mar2025 19:10:45.921] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-211, y=96, z=304} BlockPos{x=-212, y=95, z=305}
+[21Mar2025 19:12:40.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> -399 282
+[21Mar2025 19:14:26.770] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yandrak12 lost connection: Disconnected
+[21Mar2025 19:14:26.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yandrak12 left the game
+[21Mar2025 19:18:17.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> bueno ahora a donde tengo que ir?
+[21Mar2025 19:18:56.581] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yandrak12[/127.104.247.64:39375] logged in with entity id 1421231 at (-414.07052994537116, 89.5, 319.0649123853066)
+[21Mar2025 19:18:56.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yandrak12 joined the game
+[21Mar2025 19:18:56.634] [Server thread/INFO] [Jade/]: Syncing config to Yandrak12 (9e1f7cf8-caa9-3e60-a176-d0322fb27436)
+[21Mar2025 19:19:42.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> queee a donde tengo que ir para poner la casa?
+[21Mar2025 19:20:28.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> da
+[21Mar2025 19:20:36.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yandrak12: Teleported Montirizo to Yandrak12]
+[21Mar2025 19:20:44.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> para donde
+[21Mar2025 19:20:56.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> la montaña quien la ha cogido?
+[21Mar2025 19:21:38.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> me pido este sitio
+[21Mar2025 19:21:41.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> me ves?
+[21Mar2025 19:21:59.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> de aqui pabajo
+[21Mar2025 19:22:09.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> eeeeh por qué no si
+[21Mar2025 19:24:04.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> oye como puedo ver la información del esquema?
+[21Mar2025 19:24:06.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> rolloooo
+[21Mar2025 19:24:10.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> largo ancho y tal
+[21Mar2025 19:24:24.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero no puedo ver los datos
+[21Mar2025 19:24:59.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> da igual
+[21Mar2025 19:25:03.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ya me busco yo la vida
+[21Mar2025 19:25:20.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> da igual da igual ya me calculo mis cosas
+[21Mar2025 19:25:23.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> 18
+[21Mar2025 19:25:44.005] [Server thread/INFO] [com.simibubi.create.Create/]: New Schematic Uploaded: Yandrak12/CasaInicio.nbt
+[21Mar2025 19:25:47.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> 15
