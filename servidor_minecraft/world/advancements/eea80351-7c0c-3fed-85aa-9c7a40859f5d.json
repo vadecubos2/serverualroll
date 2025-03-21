@@ -11,6 +11,7 @@
       "minecraft:taiga": "2025-03-13 20:58:56 +0000",
       "minecraft:frozen_river": "2025-03-13 20:57:05 +0000",
       "minecraft:beach": "2025-03-13 20:03:43 +0000",
+      "minecraft:dark_forest": "2025-03-21 00:31:36 +0000",
       "minecraft:river": "2025-03-13 19:52:21 +0000",
       "minecraft:lukewarm_ocean": "2025-03-20 21:49:52 +0000",
       "minecraft:snowy_plains": "2025-03-13 20:56:51 +0000",
@@ -7049,18 +7050,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brown_banner": {
-    "criteria": {
-      "has_brown_wool": "2025-03-21 00:21:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_bed": {
-    "criteria": {
-      "has_brown_wool": "2025-03-21 00:21:18 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/spruce_chest_boat": {
     "criteria": {
       "has_boat": "2025-03-20 23:46:49 +0000"
@@ -7091,24 +7080,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/magenta_dye_from_lilac": {
-    "criteria": {
-      "has_lilac": "2025-03-20 23:51:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_carpet": {
-    "criteria": {
-      "has_brown_wool": "2025-03-21 00:21:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/smoker": {
-    "criteria": {
-      "has_furnace": "2025-03-21 00:04:29 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/acacia_chest_boat": {
     "criteria": {
       "has_boat": "2025-03-20 23:46:49 +0000"
@@ -7130,6 +7101,36 @@
   "minecraft:recipes/transportation/dark_oak_chest_boat": {
     "criteria": {
       "has_boat": "2025-03-20 23:46:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2025-03-20 23:51:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-03-21 00:04:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2025-03-21 00:21:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2025-03-21 00:21:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2025-03-21 00:21:18 +0000"
     },
     "done": true
   },
