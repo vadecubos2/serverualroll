@@ -424,3 +424,4 @@ Caused by: java.io.IOException: Invalid tag id: -62
 [21Mar2025 20:11:33.919] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jjailock lost connection: Disconnected
 [21Mar2025 20:11:33.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock left the game
 [21Mar2025 20:26:01.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> 19
+[21Mar2025 20:41:38.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo tried to swim in lava
