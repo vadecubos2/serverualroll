@@ -8107,21 +8107,9 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/schematics/schematicannon": {
-    "criteria": {
-      "has_item": "2025-03-21 19:02:32 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/light_blue_candle": {
     "criteria": {
       "has_light_blue_dye": "2025-03-21 19:02:29 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/schematics/schematic_table": {
-    "criteria": {
-      "has_item": "2025-03-21 19:02:32 +0000"
     },
     "done": true
   },
@@ -8140,6 +8128,18 @@
   "minecraft:recipes/building_blocks/dye_light_blue_carpet": {
     "criteria": {
       "has_needed_dye": "2025-03-21 19:02:29 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/schematicannon": {
+    "criteria": {
+      "has_item": "2025-03-21 19:02:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/schematic_table": {
+    "criteria": {
+      "has_item": "2025-03-21 19:02:32 +0000"
     },
     "done": true
   },

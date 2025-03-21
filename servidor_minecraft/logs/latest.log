@@ -1,427 +1,83 @@
-[21Mar2025 14:55:33.755] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[21Mar2025 14:55:33.762] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[21Mar2025 14:55:34.615] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[21Mar2025 14:55:34.690] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/serverualroll/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[21Mar2025 14:55:34.994] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverualroll/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[21Mar2025 14:55:34.997] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverualroll/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[21Mar2025 14:55:34.999] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverualroll/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[21Mar2025 14:55:35.001] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverualroll/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[21Mar2025 14:55:35.250] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[21Mar2025 14:55:35.253] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[21Mar2025 14:55:37.600] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[21Mar2025 14:55:37.671] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[21Mar2025 14:55:37.892] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 71 options available, 0 override(s) found
-[21Mar2025 14:55:38.813] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[21Mar2025 14:55:46.680] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[21Mar2025 14:55:46.718] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[21Mar2025 14:55:47.481] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[21Mar2025 14:55:47.482] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[21Mar2025 14:55:51.334] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
-[21Mar2025 14:55:51.335] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
-[21Mar2025 14:55:51.335] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
-[21Mar2025 14:55:51.335] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
-[21Mar2025 14:55:51.335] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
-[21Mar2025 14:55:51.335] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
-[21Mar2025 14:55:51.336] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
-[21Mar2025 14:55:51.336] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
-[21Mar2025 14:55:51.336] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
-[21Mar2025 14:55:51.336] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
-[21Mar2025 14:55:51.423] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
-[21Mar2025 14:55:51.692] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[21Mar2025 14:55:51.749] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[21Mar2025 14:55:51.760] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[21Mar2025 14:55:51.762] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
-[21Mar2025 14:55:51.763] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
-[21Mar2025 14:55:51.765] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
-[21Mar2025 14:55:51.767] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
-[21Mar2025 14:55:51.880] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[21Mar2025 14:55:52.587] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
-[21Mar2025 14:55:52.587] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
-[21Mar2025 14:55:52.731] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.24 Target: null
-[21Mar2025 14:55:52.735] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[21Mar2025 14:55:52.908] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[21Mar2025 14:55:55.655] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21Mar2025 14:55:57.899] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/serverualroll/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23143!/assets/.mcassetsroot' uses unexpected schema
-[21Mar2025 14:55:57.900] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/serverualroll/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23143!/data/.mcassetsroot' uses unexpected schema
-[21Mar2025 14:56:00.991] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 35 recipes
-[21Mar2025 14:56:01.162] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3439 advancements
-[21Mar2025 14:56:01.175] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[21Mar2025 14:56:01.182] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[21Mar2025 14:56:01.203] [main/INFO] [botania/]: Loaded 30 Loonium configurations
-[21Mar2025 14:56:03.141] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[21Mar2025 14:56:03.145] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[21Mar2025 14:56:03.146] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[21Mar2025 14:56:03.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[21Mar2025 14:56:03.356] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[21Mar2025 14:56:03.472] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[21Mar2025 14:56:03.854] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21Mar2025 14:56:03.855] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[21Mar2025 14:56:03.856] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21Mar2025 14:56:03.856] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[21Mar2025 14:56:03.935] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[21Mar2025 14:56:08.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[21Mar2025 14:56:11.483] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[21Mar2025 14:56:12.647] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 14:56:12.682] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 14:56:12.699] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 14:56:12.718] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 14:56:12.728] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 14:56:12.744] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 14:56:12.751] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 14:56:12.766] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 14:56:12.784] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 14:56:12.802] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 14:56:13.032] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 14:56:13.576] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 14:56:14.023] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 14:56:14.523] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[21Mar2025 14:56:15.024] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
-[21Mar2025 14:56:15.464] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7442 ms
-[21Mar2025 14:56:15.465] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.590s)! For help, type "help"
-[21Mar2025 14:56:15.553] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[21Mar2025 14:56:15.555] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[21Mar2025 14:56:35.460] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[21Mar2025 14:56:35.661] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jjailock[/127.69.28.83:36289] logged in with entity id 141 at (-449.4244969183649, 64.0, 259.3205989455781)
-[21Mar2025 14:56:35.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock joined the game
-[21Mar2025 14:56:35.887] [Server thread/INFO] [Jade/]: Syncing config to jjailock (f04a067b-35a2-3157-b5a3-d0e9ae627fba)
-[21Mar2025 14:56:38.844] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3287ms or 65 ticks behind
-[21Mar2025 14:56:39.808] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
-[21Mar2025 14:56:39.809] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
-[21Mar2025 14:56:39.810] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
-[21Mar2025 14:56:39.811] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
-[21Mar2025 14:56:39.812] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
-[21Mar2025 14:56:39.812] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
-[21Mar2025 14:56:39.812] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
-[21Mar2025 14:56:39.813] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
-[21Mar2025 14:56:39.813] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
-[21Mar2025 14:58:21.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock was slain by Vindicator
-[21Mar2025 14:59:09.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock was slain by Ravager
-[21Mar2025 14:59:11.874] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
-[21Mar2025 14:59:11.874] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
-[21Mar2025 14:59:11.875] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
-[21Mar2025 14:59:11.876] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
-[21Mar2025 14:59:11.876] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
-[21Mar2025 14:59:11.877] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
-[21Mar2025 14:59:11.877] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
-[21Mar2025 14:59:11.877] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
-[21Mar2025 14:59:11.878] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
-[21Mar2025 15:02:42.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock fell from a high place
-[21Mar2025 15:02:44.430] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
-[21Mar2025 15:02:44.430] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
-[21Mar2025 15:02:44.431] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
-[21Mar2025 15:02:44.431] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
-[21Mar2025 15:02:44.432] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
-[21Mar2025 15:02:44.432] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
-[21Mar2025 15:02:44.432] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
-[21Mar2025 15:02:44.433] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
-[21Mar2025 15:02:44.433] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
-[21Mar2025 15:04:01.327] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
-[21Mar2025 15:04:01.328] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
-[21Mar2025 15:04:01.328] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
-[21Mar2025 15:04:01.328] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
-[21Mar2025 15:04:01.329] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
-[21Mar2025 15:04:01.329] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
-[21Mar2025 15:04:01.329] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
-[21Mar2025 15:04:01.329] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
-[21Mar2025 15:04:01.330] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
-[21Mar2025 15:19:41.161] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
-[21Mar2025 15:19:41.161] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
-[21Mar2025 15:19:41.162] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
-[21Mar2025 15:19:41.162] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
-[21Mar2025 15:19:41.163] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
-[21Mar2025 15:19:41.163] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
-[21Mar2025 15:19:41.163] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
-[21Mar2025 15:19:41.163] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
-[21Mar2025 15:19:41.164] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
-[21Mar2025 15:20:52.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock fell from a high place
-[21Mar2025 15:20:56.472] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
-[21Mar2025 15:20:56.473] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
-[21Mar2025 15:20:56.473] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
-[21Mar2025 15:20:56.473] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
-[21Mar2025 15:20:56.474] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
-[21Mar2025 15:20:56.474] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
-[21Mar2025 15:20:56.474] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
-[21Mar2025 15:20:56.475] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
-[21Mar2025 15:20:56.475] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
-[21Mar2025 15:22:07.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock was shot by Skeleton
-[21Mar2025 15:22:10.657] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
-[21Mar2025 15:22:10.657] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
-[21Mar2025 15:22:10.657] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
-[21Mar2025 15:22:10.658] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
-[21Mar2025 15:22:10.658] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
-[21Mar2025 15:22:10.658] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
-[21Mar2025 15:22:10.659] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
-[21Mar2025 15:22:10.659] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
-[21Mar2025 15:22:10.659] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
-[21Mar2025 15:22:49.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock was shot by Skeleton
-[21Mar2025 15:22:51.210] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
-[21Mar2025 15:22:51.211] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
-[21Mar2025 15:22:51.211] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
-[21Mar2025 15:22:51.211] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
-[21Mar2025 15:22:51.212] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
-[21Mar2025 15:22:51.212] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
-[21Mar2025 15:22:51.212] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
-[21Mar2025 15:22:51.212] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
-[21Mar2025 15:22:51.213] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
-[21Mar2025 15:27:42.368] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-97, y=70, z=103} BlockPos{x=-97, y=69, z=102}
-[21Mar2025 15:30:17.391] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-73, y=80, z=131} BlockPos{x=-72, y=80, z=132}
-[21Mar2025 15:30:17.428] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-73, y=80, z=131} BlockPos{x=-72, y=80, z=132}
-[21Mar2025 15:30:29.241] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-69, y=82, z=144} BlockPos{x=-69, y=83, z=144}
-[21Mar2025 15:30:29.277] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-69, y=82, z=144} BlockPos{x=-69, y=83, z=144}
-[21Mar2025 15:30:29.318] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-69, y=82, z=144} BlockPos{x=-69, y=83, z=144}
-[21Mar2025 15:30:29.391] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-69, y=82, z=144} BlockPos{x=-69, y=83, z=144}
-[21Mar2025 15:30:29.427] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-69, y=82, z=144} BlockPos{x=-69, y=83, z=144}
-[21Mar2025 15:36:50.821] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-46, y=74, z=141} BlockPos{x=-46, y=74, z=140}
-[21Mar2025 15:38:12.015] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-27, y=81, z=164} BlockPos{x=-28, y=79, z=163}
-[21Mar2025 15:50:00.020] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=117, z=106} BlockPos{x=-53, y=117, z=106}
-[21Mar2025 15:50:00.065] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=117, z=106} BlockPos{x=-53, y=117, z=106}
-[21Mar2025 15:50:00.117] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=117, z=106} BlockPos{x=-53, y=117, z=106}
-[21Mar2025 15:50:00.186] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=117, z=106} BlockPos{x=-53, y=117, z=106}
-[21Mar2025 15:50:00.223] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=117, z=106} BlockPos{x=-53, y=117, z=106}
-[21Mar2025 15:50:00.267] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=117, z=106} BlockPos{x=-53, y=117, z=106}
-[21Mar2025 15:50:00.334] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=117, z=106} BlockPos{x=-53, y=117, z=106}
-[21Mar2025 15:50:00.370] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=117, z=106} BlockPos{x=-53, y=117, z=106}
-[21Mar2025 15:50:00.417] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=117, z=106} BlockPos{x=-53, y=117, z=106}
-[21Mar2025 15:50:00.467] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=117, z=106} BlockPos{x=-53, y=117, z=106}
-[21Mar2025 15:50:00.540] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=117, z=106} BlockPos{x=-53, y=117, z=106}
-[21Mar2025 15:50:00.576] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=117, z=106} BlockPos{x=-53, y=117, z=106}
-[21Mar2025 15:50:00.615] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=117, z=106} BlockPos{x=-53, y=117, z=106}
-[21Mar2025 15:50:00.685] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=117, z=106} BlockPos{x=-53, y=117, z=106}
-[21Mar2025 15:50:00.722] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=117, z=106} BlockPos{x=-53, y=117, z=106}
-[21Mar2025 15:50:00.764] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=117, z=106} BlockPos{x=-53, y=117, z=106}
-[21Mar2025 15:51:02.431] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-84, y=122, z=83} BlockPos{x=-86, y=122, z=83}
-[21Mar2025 15:51:09.087] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-87, y=122, z=85} BlockPos{x=-85, y=120, z=84}
-[21Mar2025 15:51:43.646] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-107, y=120, z=58} BlockPos{x=-106, y=120, z=58}
-[21Mar2025 16:18:09.410] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
-[21Mar2025 16:18:09.410] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
-[21Mar2025 16:18:09.410] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
-[21Mar2025 16:18:09.411] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
-[21Mar2025 16:18:09.411] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
-[21Mar2025 16:18:09.411] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
-[21Mar2025 16:18:09.412] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
-[21Mar2025 16:18:09.412] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
-[21Mar2025 16:18:09.412] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
-[21Mar2025 16:31:46.318] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jjailock lost connection: Disconnected
-[21Mar2025 16:31:46.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock left the game
-[21Mar2025 17:15:32.289] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jjailock[/127.69.28.83:35063] logged in with entity id 20555 at (-106.69364224542063, 116.0, 58.38273403413576)
-[21Mar2025 17:15:32.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock joined the game
-[21Mar2025 17:15:32.310] [Server thread/INFO] [Jade/]: Syncing config to jjailock (f04a067b-35a2-3157-b5a3-d0e9ae627fba)
-[21Mar2025 17:16:48.013] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-103, y=116, z=57} BlockPos{x=-101, y=116, z=56}
-[21Mar2025 17:16:48.415] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-103, y=116, z=57} BlockPos{x=-102, y=116, z=57}
-[21Mar2025 17:16:48.416] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-103, y=116, z=57} BlockPos{x=-102, y=116, z=58}
-[21Mar2025 17:16:49.049] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-103, y=116, z=57} BlockPos{x=-101, y=115, z=57}
-[21Mar2025 17:17:13.121] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-95, y=120, z=50} BlockPos{x=-95, y=119, z=50}
-[21Mar2025 17:17:13.178] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-95, y=120, z=50} BlockPos{x=-95, y=119, z=50}
-[21Mar2025 17:17:13.236] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-95, y=120, z=50} BlockPos{x=-95, y=119, z=50}
-[21Mar2025 17:17:13.294] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-95, y=120, z=50} BlockPos{x=-95, y=119, z=50}
-[21Mar2025 17:17:13.351] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-95, y=120, z=50} BlockPos{x=-95, y=119, z=50}
-[21Mar2025 17:17:13.414] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-95, y=120, z=50} BlockPos{x=-95, y=119, z=50}
-[21Mar2025 17:19:08.005] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-109, y=116, z=-11} BlockPos{x=-109, y=115, z=-12}
-[21Mar2025 17:19:08.067] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-109, y=116, z=-11} BlockPos{x=-109, y=115, z=-12}
-[21Mar2025 17:19:08.068] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-109, y=116, z=-11} BlockPos{x=-109, y=115, z=-12}
-[21Mar2025 17:19:08.121] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-109, y=116, z=-11} BlockPos{x=-109, y=115, z=-12}
-[21Mar2025 17:21:50.823] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yandrak12[/127.104.247.64:35161] logged in with entity id 23078 at (-426.566792923205, 84.0, 325.5453711824567)
-[21Mar2025 17:21:50.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yandrak12 joined the game
-[21Mar2025 17:21:50.840] [Server thread/INFO] [Jade/]: Syncing config to Yandrak12 (9e1f7cf8-caa9-3e60-a176-d0322fb27436)
-[21Mar2025 17:21:51.870] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
-[21Mar2025 17:21:51.870] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
-[21Mar2025 17:21:51.870] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
-[21Mar2025 17:21:51.876] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
-[21Mar2025 17:21:51.877] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
-[21Mar2025 17:21:51.877] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
-[21Mar2025 17:21:51.877] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
-[21Mar2025 17:21:51.877] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
-[21Mar2025 17:21:51.877] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
-[21Mar2025 17:25:06.056] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SF_KindPrime[/127.9.163.31:38051] logged in with entity id 25731 at (-446.0232369854772, 70.5, 344.27677985558)
-[21Mar2025 17:25:06.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SF_KindPrime joined the game
-[21Mar2025 17:25:06.119] [Server thread/INFO] [Jade/]: Syncing config to SF_KindPrime (8ac37f11-89c7-3573-a3ef-92766c917c7b)
-[21Mar2025 17:47:16.025] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-677, y=92, z=114} BlockPos{x=-677, y=93, z=113}
-[21Mar2025 17:47:16.076] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-677, y=92, z=114} BlockPos{x=-677, y=93, z=113}
-[21Mar2025 17:54:51.792] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/318466, l='ServerLevel[world]', x=-353.72, y=63.00, z=-474.63] died, message: 'Unemployed hit the ground too hard'
-[21Mar2025 17:55:00.275] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/320182, l='ServerLevel[world]', x=-338.91, y=63.00, z=-412.00] died, message: 'Unemployed hit the ground too hard'
-[21Mar2025 17:55:00.276] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/320184, l='ServerLevel[world]', x=-340.85, y=63.00, z=-411.44] died, message: 'Unemployed hit the ground too hard'
-[21Mar2025 17:55:00.276] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/320186, l='ServerLevel[world]', x=-340.78, y=63.00, z=-410.24] died, message: 'Unemployed hit the ground too hard'
-[21Mar2025 17:55:00.277] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/320187, l='ServerLevel[world]', x=-339.28, y=63.00, z=-410.37] died, message: 'Unemployed hit the ground too hard'
-[21Mar2025 17:55:01.723] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/320564, l='ServerLevel[world]', x=-394.37, y=65.00, z=-387.07] died, message: 'Unemployed hit the ground too hard'
-[21Mar2025 17:55:03.726] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/321017, l='ServerLevel[world]', x=-374.30, y=63.00, z=-375.59] died, message: 'Unemployed hit the ground too hard'
-[21Mar2025 17:55:03.727] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/321018, l='ServerLevel[world]', x=-375.83, y=63.00, z=-375.12] died, message: 'Unemployed hit the ground too hard'
-[21Mar2025 17:55:05.821] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/321339, l='ServerLevel[world]', x=-390.94, y=63.00, z=-352.72] died, message: 'Unemployed hit the ground too hard'
-[21Mar2025 17:55:05.875] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/321382, l='ServerLevel[world]', x=-381.45, y=63.00, z=-353.48] died, message: 'Fletcher hit the ground too hard'
-[21Mar2025 17:55:06.088] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/321381, l='ServerLevel[world]', x=-357.50, y=63.00, z=-359.46] died, message: 'Fletcher hit the ground too hard'
-[21Mar2025 17:55:14.771] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/321031, l='ServerLevel[world]', x=-332.37, y=67.00, z=-380.72] died, message: 'Unemployed hit the ground too hard'
-[21Mar2025 17:55:14.772] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/321032, l='ServerLevel[world]', x=-332.28, y=65.00, z=-381.37] died, message: 'Unemployed hit the ground too hard'
-[21Mar2025 18:07:41.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SF_KindPrime has made the advancement [After-School Stride]
-[21Mar2025 18:14:20.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yandrak12: Set own game mode to Spectator Mode]
-[21Mar2025 18:15:58.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yandrak12: Set own game mode to Survival Mode]
-[21Mar2025 18:18:18.389] [Server thread/INFO] [naturescompass/]: Starting search: 64 sample space, 50000 max samples, 10000 max radius
-[21Mar2025 18:18:18.420] [Server thread/INFO] [naturescompass/]: Search succeeded: 0 radius, 0 samples
-[21Mar2025 18:18:55.921] [Server thread/INFO] [naturescompass/]: Starting search: 64 sample space, 50000 max samples, 10000 max radius
-[21Mar2025 18:18:55.988] [Server thread/INFO] [naturescompass/]: Search succeeded: 819 radius, 188 samples
-[21Mar2025 18:20:20.568] [Server thread/INFO] [naturescompass/]: Starting search: 64 sample space, 50000 max samples, 10000 max radius
-[21Mar2025 18:20:20.839] [Server thread/INFO] [naturescompass/]: Search succeeded: 2734 radius, 2569 samples
-[21Mar2025 18:20:25.823] [Server thread/INFO] [naturescompass/]: Starting search: 64 sample space, 50000 max samples, 10000 max radius
-[21Mar2025 18:20:25.877] [Server thread/INFO] [naturescompass/]: Search succeeded: 404 radius, 70 samples
-[21Mar2025 18:35:13.936] [IO-Worker-229/ERROR] [net.minecraft.world.level.chunk.storage.RegionFile/]: Declared size -1631312005 of chunk [-139, 72] is negative
-[21Mar2025 18:35:14.054] [IO-Worker-226/ERROR] [net.minecraft.world.level.chunk.storage.RegionFile/]: Chunk [-143, 86] stream is truncated: expected 224998799 but read 8187
-[21Mar2025 18:35:14.147] [IO-Worker-228/WARN] [net.minecraft.world.level.chunk.storage.IOWorker/]: Failed to bulk scan chunk [-143, 92]
-java.io.IOException: Invalid tag id: -62
-	at net.minecraft.nbt.TagType$1.m_197591_(TagType.java:58) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.nbt.TagType$1.m_196189_(TagType.java:73) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.nbt.ListTag$1.m_196159_(ListTag.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.nbt.CompoundTag$1.m_196511_(CompoundTag.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.nbt.NbtIo.m_197509_(NbtIo.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.world.level.chunk.storage.RegionFileStorage.m_196956_(RegionFileStorage.java:65) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.world.level.chunk.storage.IOWorker.m_223499_(IOWorker.java:223) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.world.level.chunk.storage.IOWorker.m_223468_(IOWorker.java:236) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.util.thread.StrictQueue$IntRunnable.run(StrictQueue.java:60) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[21Mar2025 18:35:14.149] [Worker-Main-176/WARN] [net.minecraft.world.level.chunk.storage.IOWorker/]: Failed to scan chunk [-143, 92]
-java.util.concurrent.CompletionException: java.io.IOException: Invalid tag id: -62
-	at java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:413) ~[?:?]
-	at java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2118) ~[?:?]
-	at net.minecraft.world.level.chunk.storage.IOWorker.m_223478_(IOWorker.java:143) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.world.level.ChunkPos$1.tryAdvance(ChunkPos.java:203) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at java.util.Spliterator.forEachRemaining(Spliterator.java:332) ~[?:?]
-	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
-	at net.minecraft.world.level.chunk.storage.IOWorker.m_223503_(IOWorker.java:136) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-Caused by: java.io.IOException: Invalid tag id: -62
-	at net.minecraft.nbt.TagType$1.m_197591_(TagType.java:58) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.nbt.TagType$1.m_196189_(TagType.java:73) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.nbt.ListTag$1.m_196159_(ListTag.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.nbt.CompoundTag$1.m_196511_(CompoundTag.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.nbt.NbtIo.m_197509_(NbtIo.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.world.level.chunk.storage.RegionFileStorage.m_196956_(RegionFileStorage.java:65) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.world.level.chunk.storage.IOWorker.m_223499_(IOWorker.java:223) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.world.level.chunk.storage.IOWorker.m_223468_(IOWorker.java:236) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.util.thread.StrictQueue$IntRunnable.run(StrictQueue.java:60) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[21Mar2025 18:35:14.168] [IO-Worker-228/ERROR] [net.minecraft.world.level.chunk.storage.RegionFile/]: Chunk [-154, 95] stream is truncated: expected 1472833544 but read 4091
-[21Mar2025 18:35:14.168] [IO-Worker-228/WARN] [net.minecraft.world.level.chunk.storage.RegionFile/]: Chunk has both internal and external streams
-[21Mar2025 18:35:14.169] [IO-Worker-228/ERROR] [net.minecraft.world.level.chunk.storage.RegionFile/]: External chunk path ./world/region/c.-150.95.mcc is not file
-[21Mar2025 18:36:35.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yandrak12: Teleported jjailock to Yandrak12]
-[21Mar2025 18:54:40.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock was shot by SF_KindPrime
-[21Mar2025 19:00:21.940] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Montirizo[/127.117.194.152:45001] logged in with entity id 1139555 at (-442.8838722890083, 71.0, 332.38351597543556)
-[21Mar2025 19:00:21.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo joined the game
-[21Mar2025 19:00:21.991] [Server thread/INFO] [Jade/]: Syncing config to Montirizo (24681182-9b4e-3f8d-8b09-b571233c0a15)
-[21Mar2025 19:00:36.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> montoya ahora tiene que hacer un esquematic
-[21Mar2025 19:01:56.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no estaba escuchando si me habéis dicho algo
-[21Mar2025 19:02:36.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pss de todo esto
-[21Mar2025 19:02:42.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> eh?
-[21Mar2025 19:02:52.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> como que replicar
-[21Mar2025 19:03:00.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> si pero luego como lo pegas?
-[21Mar2025 19:03:12.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero está todo list?
-[21Mar2025 19:03:21.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> entonces que falta'
-[21Mar2025 19:03:34.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> sisi espera
-[21Mar2025 19:04:59.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero
-[21Mar2025 19:05:03.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> tendré que hacer el esquema primero
-[21Mar2025 19:05:18.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> lo quiero exacto pero alli
-[21Mar2025 19:05:26.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> eso tengo en la mano
-[21Mar2025 19:05:57.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero esq no es solo la casa sabes
-[21Mar2025 19:06:04.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> seguro?
-[21Mar2025 19:06:36.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> hostia y abajo que
-[21Mar2025 19:06:52.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> hmmmm
-[21Mar2025 19:07:04.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> dame las vias del tren
-[21Mar2025 19:07:16.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> porq entonces no copio nada, porq mi casa es todo esto vaya, osea no la uso
-[21Mar2025 19:07:34.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero que la taberna no la usaba apenas
-[21Mar2025 19:07:57.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> hmmm
-[21Mar2025 19:08:01.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> bueno voy a copiar la casa
-[21Mar2025 19:08:12.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no porq igual es mucho coñazo
-[21Mar2025 19:08:15.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> copiaré la casa
-[21Mar2025 19:08:26.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> el que?
-[21Mar2025 19:08:40.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pff nose
-[21Mar2025 19:09:15.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> psss
-[21Mar2025 19:09:29.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> sesq yo me la llevaría entera con lo de abajo y todo pero va a ser una burrada
-[21Mar2025 19:09:50.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no si yo de hacer casas no soy
-[21Mar2025 19:10:45.921] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-211, y=96, z=304} BlockPos{x=-212, y=95, z=305}
-[21Mar2025 19:12:40.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> -399 282
-[21Mar2025 19:14:26.770] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yandrak12 lost connection: Disconnected
-[21Mar2025 19:14:26.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yandrak12 left the game
-[21Mar2025 19:18:17.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> bueno ahora a donde tengo que ir?
-[21Mar2025 19:18:56.581] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yandrak12[/127.104.247.64:39375] logged in with entity id 1421231 at (-414.07052994537116, 89.5, 319.0649123853066)
-[21Mar2025 19:18:56.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yandrak12 joined the game
-[21Mar2025 19:18:56.634] [Server thread/INFO] [Jade/]: Syncing config to Yandrak12 (9e1f7cf8-caa9-3e60-a176-d0322fb27436)
-[21Mar2025 19:19:42.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> queee a donde tengo que ir para poner la casa?
-[21Mar2025 19:20:28.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> da
-[21Mar2025 19:20:36.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yandrak12: Teleported Montirizo to Yandrak12]
-[21Mar2025 19:20:44.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> para donde
-[21Mar2025 19:20:56.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> la montaña quien la ha cogido?
-[21Mar2025 19:21:38.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> me pido este sitio
-[21Mar2025 19:21:41.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> me ves?
-[21Mar2025 19:21:59.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> de aqui pabajo
-[21Mar2025 19:22:09.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> eeeeh por qué no si
-[21Mar2025 19:24:04.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> oye como puedo ver la información del esquema?
-[21Mar2025 19:24:06.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> rolloooo
-[21Mar2025 19:24:10.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> largo ancho y tal
-[21Mar2025 19:24:24.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> pero no puedo ver los datos
-[21Mar2025 19:24:59.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> da igual
-[21Mar2025 19:25:03.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ya me busco yo la vida
-[21Mar2025 19:25:20.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> da igual da igual ya me calculo mis cosas
-[21Mar2025 19:25:23.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> 18
-[21Mar2025 19:25:44.005] [Server thread/INFO] [com.simibubi.create.Create/]: New Schematic Uploaded: Yandrak12/CasaInicio.nbt
-[21Mar2025 19:25:47.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> 15
-[21Mar2025 19:29:11.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yandrak12 fell from a high place
-[21Mar2025 19:29:35.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> el ascensor está...
-[21Mar2025 19:29:37.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> lo siento
-[21Mar2025 19:29:44.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no he avisado que he cerrado el ascensor
-[21Mar2025 19:29:49.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> he puesto unas escaleras para bajar
-[21Mar2025 19:30:12.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ??
-[21Mar2025 19:30:27.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ah porq como era el centro de todo
-[21Mar2025 19:30:31.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> lo puse por poenr
-[21Mar2025 19:31:02.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> si
-[21Mar2025 19:31:11.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yandrak12: Teleported Yandrak12 to jjailock]
-[21Mar2025 19:32:12.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> mira por los cofres
-[21Mar2025 19:32:26.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> oh mira espera
-[21Mar2025 19:32:35.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> te habilito el ascensor para que lo recuperes
-[21Mar2025 19:32:51.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> sube
-[21Mar2025 19:33:20.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> sube
-[21Mar2025 19:33:24.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> no creo
-[21Mar2025 19:33:27.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> se superpondra
-[21Mar2025 19:33:36.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> a juan le paso parecido
-[21Mar2025 19:34:19.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> sal de ahi
-[21Mar2025 19:34:31.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> sal de ahi
-[21Mar2025 19:35:49.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> QUE NADIE USE EL ASCENSOR
-[21Mar2025 19:36:28.387] [Server thread/INFO] [com.simibubi.create.Create/]: New Schematic Uploaded: Yandrak12/casaAvanzada.nbt
-[21Mar2025 19:36:54.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SF_KindPrime has made the advancement [The Cutest Predator]
-[21Mar2025 19:40:55.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> el cubo de agua lo has cogido?
-[21Mar2025 19:48:26.483] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yandrak12 lost connection: Disconnected
-[21Mar2025 19:48:26.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yandrak12 left the game
-[21Mar2025 19:49:25.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ande vas?
-[21Mar2025 19:49:31.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> oh damns
-[21Mar2025 19:49:56.678] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3171f4d6[id=<null>,name=Yandrak12,properties={},legacy=false] (/127.104.247.64:39013) lost connection: Disconnected
-[21Mar2025 19:50:00.543] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yandrak12[/127.104.247.64:49499] logged in with entity id 1545319 at (-1705.699999988079, 102.0, 1079.8780084471236)
-[21Mar2025 19:50:00.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yandrak12 joined the game
-[21Mar2025 19:50:00.589] [Server thread/INFO] [Jade/]: Syncing config to Yandrak12 (9e1f7cf8-caa9-3e60-a176-d0322fb27436)
-[21Mar2025 19:50:19.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yandrak12: Teleported SF_KindPrime to Yandrak12]
-[21Mar2025 19:50:45.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> ay
-[21Mar2025 19:50:47.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> hola
-[21Mar2025 19:51:04.171] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yandrak12 lost connection: Disconnected
-[21Mar2025 19:51:04.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yandrak12 left the game
-[21Mar2025 19:51:27.975] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SF_KindPrime lost connection: Disconnected
-[21Mar2025 19:51:27.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SF_KindPrime left the game
-[21Mar2025 19:52:23.714] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jjailock lost connection: Disconnected
-[21Mar2025 19:52:23.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock left the game
-[21Mar2025 19:55:39.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> norte
-[21Mar2025 19:59:47.643] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jjailock[/127.69.28.83:39821] logged in with entity id 1548638 at (-448.1054357897229, 64.0, 258.41343166234384)
-[21Mar2025 19:59:47.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock joined the game
-[21Mar2025 19:59:47.659] [Server thread/INFO] [Jade/]: Syncing config to jjailock (f04a067b-35a2-3157-b5a3-d0e9ae627fba)
-[21Mar2025 20:11:33.919] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jjailock lost connection: Disconnected
-[21Mar2025 20:11:33.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock left the game
-[21Mar2025 20:26:01.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> 19
-[21Mar2025 20:41:38.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo tried to swim in lava
+[21Mar2025 22:36:07.896] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[21Mar2025 22:36:07.899] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[21Mar2025 22:36:08.638] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[21Mar2025 22:36:08.693] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/serverualroll/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[21Mar2025 22:36:08.946] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverualroll/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[21Mar2025 22:36:08.947] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverualroll/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[21Mar2025 22:36:08.948] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverualroll/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[21Mar2025 22:36:08.950] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverualroll/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[21Mar2025 22:36:09.137] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[21Mar2025 22:36:09.139] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[21Mar2025 22:36:11.028] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[21Mar2025 22:36:11.081] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[21Mar2025 22:36:11.253] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 71 options available, 0 override(s) found
+[21Mar2025 22:36:11.898] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[21Mar2025 22:36:18.040] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[21Mar2025 22:36:18.069] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[21Mar2025 22:36:18.623] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[21Mar2025 22:36:18.625] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[21Mar2025 22:36:21.764] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[21Mar2025 22:36:21.766] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[21Mar2025 22:36:21.767] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[21Mar2025 22:36:21.768] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[21Mar2025 22:36:21.769] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[21Mar2025 22:36:21.769] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[21Mar2025 22:36:21.770] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[21Mar2025 22:36:21.771] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[21Mar2025 22:36:21.773] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[21Mar2025 22:36:21.773] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[21Mar2025 22:36:21.833] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[21Mar2025 22:36:21.991] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[21Mar2025 22:36:22.000] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[21Mar2025 22:36:22.019] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[21Mar2025 22:36:22.024] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[21Mar2025 22:36:22.025] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[21Mar2025 22:36:22.026] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[21Mar2025 22:36:22.027] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
+[21Mar2025 22:36:22.028] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[21Mar2025 22:36:22.394] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
+[21Mar2025 22:36:22.394] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[21Mar2025 22:36:22.542] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.24 Target: null
+[21Mar2025 22:36:22.543] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[21Mar2025 22:36:22.884] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[21Mar2025 22:36:24.799] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21Mar2025 22:36:26.450] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/serverualroll/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23143!/assets/.mcassetsroot' uses unexpected schema
+[21Mar2025 22:36:26.450] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/serverualroll/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23143!/data/.mcassetsroot' uses unexpected schema
+[21Mar2025 22:36:28.655] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 35 recipes
+[21Mar2025 22:36:28.799] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3439 advancements
+[21Mar2025 22:36:28.807] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[21Mar2025 22:36:28.812] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[21Mar2025 22:36:28.829] [main/INFO] [botania/]: Loaded 30 Loonium configurations
+[21Mar2025 22:36:30.315] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[21Mar2025 22:36:30.316] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21Mar2025 22:36:30.317] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21Mar2025 22:36:30.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Mar2025 22:36:30.452] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[21Mar2025 22:36:30.476] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[21Mar2025 22:36:30.566] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21Mar2025 22:36:30.567] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[21Mar2025 22:36:30.567] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21Mar2025 22:36:30.567] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[21Mar2025 22:36:30.639] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[21Mar2025 22:36:33.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Mar2025 22:36:37.528] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Mar2025 22:36:37.548] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Mar2025 22:36:37.701] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Mar2025 22:36:37.724] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Mar2025 22:36:37.736] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Mar2025 22:36:37.738] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Mar2025 22:36:37.753] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Mar2025 22:36:37.777] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Mar2025 22:36:37.789] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Mar2025 22:36:38.252] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Mar2025 22:36:38.745] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[21Mar2025 22:36:39.248] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
+[21Mar2025 22:36:39.428] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5683 ms
+[21Mar2025 22:36:39.428] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.844s)! For help, type "help"
+[21Mar2025 22:36:39.496] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[21Mar2025 22:36:39.498] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[21Mar2025 22:36:49.311] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[21Mar2025 22:36:49.457] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jjailock[/127.69.28.83:58045] logged in with entity id 142 at (-450.40603865105527, 64.0, 257.34848233953966)
+[21Mar2025 22:36:49.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock joined the game
+[21Mar2025 22:36:49.595] [Server thread/INFO] [Jade/]: Syncing config to jjailock (f04a067b-35a2-3157-b5a3-d0e9ae627fba)
+[21Mar2025 22:36:51.650] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2243ms or 44 ticks behind
