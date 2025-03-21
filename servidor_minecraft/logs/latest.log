@@ -104,3 +104,4 @@
 [21Mar2025 11:52:42.905] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
 [21Mar2025 11:52:42.905] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
 [21Mar2025 11:52:42.905] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
+[21Mar2025 12:14:45.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock has made the advancement [An Ecstatic Vivace]
