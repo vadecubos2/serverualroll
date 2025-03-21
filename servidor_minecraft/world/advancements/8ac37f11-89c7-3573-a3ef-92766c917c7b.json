@@ -8141,12 +8141,6 @@
     },
     "done": true
   },
-  "farmersdelight:main/place_campfire": {
-    "criteria": {
-      "campfire": "2025-03-21 00:38:41 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/spruce_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2025-03-21 00:33:23 +0000"
@@ -8159,13 +8153,13 @@
     },
     "done": true
   },
-  "create:haunted_bell": {
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
     "criteria": {
-      "0": "2025-03-21 00:41:49 +0000"
+      "has_log": "2025-03-21 00:38:28 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dark_oak_planks": {
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
     "criteria": {
       "has_log": "2025-03-21 00:38:28 +0000"
     },
@@ -8177,9 +8171,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dark_oak_wood": {
+  "farmersdelight:main/place_campfire": {
     "criteria": {
-      "has_log": "2025-03-21 00:38:28 +0000"
+      "campfire": "2025-03-21 00:38:41 +0000"
+    },
+    "done": true
+  },
+  "create:haunted_bell": {
+    "criteria": {
+      "0": "2025-03-21 00:41:49 +0000"
     },
     "done": true
   },

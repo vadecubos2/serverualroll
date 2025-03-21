@@ -210,3 +210,28 @@
 [21Mar2025 17:16:48.415] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-103, y=116, z=57} BlockPos{x=-102, y=116, z=57}
 [21Mar2025 17:16:48.416] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-103, y=116, z=57} BlockPos{x=-102, y=116, z=58}
 [21Mar2025 17:16:49.049] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-103, y=116, z=57} BlockPos{x=-101, y=115, z=57}
+[21Mar2025 17:17:13.121] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-95, y=120, z=50} BlockPos{x=-95, y=119, z=50}
+[21Mar2025 17:17:13.178] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-95, y=120, z=50} BlockPos{x=-95, y=119, z=50}
+[21Mar2025 17:17:13.236] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-95, y=120, z=50} BlockPos{x=-95, y=119, z=50}
+[21Mar2025 17:17:13.294] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-95, y=120, z=50} BlockPos{x=-95, y=119, z=50}
+[21Mar2025 17:17:13.351] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-95, y=120, z=50} BlockPos{x=-95, y=119, z=50}
+[21Mar2025 17:17:13.414] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-95, y=120, z=50} BlockPos{x=-95, y=119, z=50}
+[21Mar2025 17:19:08.005] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-109, y=116, z=-11} BlockPos{x=-109, y=115, z=-12}
+[21Mar2025 17:19:08.067] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-109, y=116, z=-11} BlockPos{x=-109, y=115, z=-12}
+[21Mar2025 17:19:08.068] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-109, y=116, z=-11} BlockPos{x=-109, y=115, z=-12}
+[21Mar2025 17:19:08.121] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-109, y=116, z=-11} BlockPos{x=-109, y=115, z=-12}
+[21Mar2025 17:21:50.823] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yandrak12[/127.104.247.64:35161] logged in with entity id 23078 at (-426.566792923205, 84.0, 325.5453711824567)
+[21Mar2025 17:21:50.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yandrak12 joined the game
+[21Mar2025 17:21:50.840] [Server thread/INFO] [Jade/]: Syncing config to Yandrak12 (9e1f7cf8-caa9-3e60-a176-d0322fb27436)
+[21Mar2025 17:21:51.870] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
+[21Mar2025 17:21:51.870] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
+[21Mar2025 17:21:51.870] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
+[21Mar2025 17:21:51.876] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
+[21Mar2025 17:21:51.877] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
+[21Mar2025 17:21:51.877] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
+[21Mar2025 17:21:51.877] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
+[21Mar2025 17:21:51.877] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
+[21Mar2025 17:21:51.877] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
+[21Mar2025 17:25:06.056] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SF_KindPrime[/127.9.163.31:38051] logged in with entity id 25731 at (-446.0232369854772, 70.5, 344.27677985558)
+[21Mar2025 17:25:06.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SF_KindPrime joined the game
+[21Mar2025 17:25:06.119] [Server thread/INFO] [Jade/]: Syncing config to SF_KindPrime (8ac37f11-89c7-3573-a3ef-92766c917c7b)
