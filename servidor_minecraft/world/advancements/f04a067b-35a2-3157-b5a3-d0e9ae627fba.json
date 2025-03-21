@@ -7986,6 +7986,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2025-03-21 23:50:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mud_bricks": {
     "criteria": {
       "has_packed_mud": "2025-03-21 22:53:25 +0000"
