@@ -91,3 +91,7 @@
 [21Mar2025 00:38:41.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SF_KindPrime has made the advancement [Bonfire Lit]
 [21Mar2025 00:39:08.443] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
 [21Mar2025 00:41:49.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SF_KindPrime has made the advancement [Shadow Sense]
+[21Mar2025 01:02:44.286] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SF_KindPrime lost connection: Disconnected
+[21Mar2025 01:02:44.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SF_KindPrime left the game
+[21Mar2025 01:07:13.483] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pakar lost connection: Disconnected
+[21Mar2025 01:07:13.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pakar left the game
