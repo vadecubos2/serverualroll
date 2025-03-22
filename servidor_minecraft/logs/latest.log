@@ -103,3 +103,7 @@
 [22Mar2025 01:10:30.190] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
 [22Mar2025 01:10:30.190] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
 [22Mar2025 01:10:30.190] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
+[22Mar2025 01:26:27.263] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pakar lost connection: Disconnected
+[22Mar2025 01:26:27.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pakar left the game
+[22Mar2025 01:37:07.314] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jjailock lost connection: Disconnected
+[22Mar2025 01:37:07.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock left the game
