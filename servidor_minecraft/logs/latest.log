@@ -22,3 +22,8 @@
 [22Mar2025 00:24:56.215] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
 [22Mar2025 00:24:56.215] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
 [22Mar2025 00:24:56.216] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
+[22Mar2025 00:37:14.719] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1808, y=69, z=1017} BlockPos{x=-1807, y=68, z=1015}
+[22Mar2025 00:41:32.076] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1768, y=70, z=994} BlockPos{x=-1769, y=68, z=996}
+[22Mar2025 00:41:32.127] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1768, y=70, z=994} BlockPos{x=-1769, y=68, z=996}
+[22Mar2025 00:41:32.373] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1767, y=69, z=994} BlockPos{x=-1766, y=69, z=995}
+[22Mar2025 00:41:32.465] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1768, y=70, z=995} BlockPos{x=-1766, y=69, z=995}

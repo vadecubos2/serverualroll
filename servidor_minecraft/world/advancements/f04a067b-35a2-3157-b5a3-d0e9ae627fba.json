@@ -8094,5 +8094,17 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/decorations/crimson_cabinet": {
+    "criteria": {
+      "has_crimson_trapdoor": "2025-03-22 00:32:01 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/jungle_cabinet": {
+    "criteria": {
+      "has_jungle_trapdoor": "2025-03-22 00:33:03 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
