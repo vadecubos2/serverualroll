@@ -4770,3 +4770,7 @@ Caused by: java.io.IOException: Invalid tag id: -62
 [22Mar2025 01:36:41.695] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [22Mar2025 01:37:07.314] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jjailock lost connection: Disconnected
 [22Mar2025 01:37:07.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock left the game
+[22Mar2025 01:41:41.664] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Mar2025 01:41:41.671] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Mar2025 01:46:41.662] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Mar2025 01:46:41.670] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
