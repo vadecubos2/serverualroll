@@ -99,3 +99,5 @@
 [22Mar2025 15:14:28.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> 1707 1107
 [22Mar2025 15:22:24.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> 23
 [22Mar2025 15:22:45.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> 20
+[22Mar2025 15:32:37.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Set own game mode to Spectator Mode]
+[22Mar2025 15:33:18.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Set own game mode to Survival Mode]
