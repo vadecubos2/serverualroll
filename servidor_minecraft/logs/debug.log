@@ -4289,3 +4289,9 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [22Mar2025 15:10:09.746] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [22Mar2025 15:10:09.755] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [22Mar2025 15:14:28.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> 1707 1107
+[22Mar2025 15:15:09.743] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Mar2025 15:15:09.751] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Mar2025 15:20:09.743] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Mar2025 15:20:09.752] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Mar2025 15:22:24.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> 23
+[22Mar2025 15:22:45.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> 20
