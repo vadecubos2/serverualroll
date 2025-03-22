@@ -101,3 +101,14 @@
 [22Mar2025 15:22:45.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Montirizo> 20
 [22Mar2025 15:32:37.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Set own game mode to Spectator Mode]
 [22Mar2025 15:33:18.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Montirizo: Set own game mode to Survival Mode]
+[22Mar2025 15:48:06.675] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
+[22Mar2025 15:48:06.675] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
+[22Mar2025 15:48:06.676] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
+[22Mar2025 15:48:06.676] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
+[22Mar2025 15:48:06.676] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
+[22Mar2025 15:48:06.677] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
+[22Mar2025 15:48:06.677] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
+[22Mar2025 15:48:06.677] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
+[22Mar2025 15:48:06.677] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
+[22Mar2025 15:54:58.859] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Montirizo lost connection: Disconnected
+[22Mar2025 15:54:58.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Montirizo left the game
