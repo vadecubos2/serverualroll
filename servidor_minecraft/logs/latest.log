@@ -85,3 +85,42 @@
 [22Mar2025 16:38:13.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SF_KindPrime joined the game
 [22Mar2025 16:38:13.433] [Server thread/INFO] [Jade/]: Syncing config to SF_KindPrime (8ac37f11-89c7-3573-a3ef-92766c917c7b)
 [22Mar2025 16:38:16.120] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2932ms or 58 ticks behind
+[22Mar2025 17:07:24.039] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jjailock[/127.69.28.83:51477] logged in with entity id 6601 at (-450.79364267137754, 64.0, 257.34092401807055)
+[22Mar2025 17:07:24.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock joined the game
+[22Mar2025 17:07:24.089] [Server thread/INFO] [Jade/]: Syncing config to jjailock (f04a067b-35a2-3157-b5a3-d0e9ae627fba)
+[22Mar2025 17:07:46.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jjailock> jhelou
+[22Mar2025 17:07:54.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> yey
+[22Mar2025 17:08:06.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jjailock> donde andas
+[22Mar2025 17:08:19.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> en tunte a la derecha
+[22Mar2025 17:09:22.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> duernes?
+[22Mar2025 17:09:31.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> estoy buscando una buena formación de cuevas
+[22Mar2025 17:10:09.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> zzzzzzzzzzzzz
+[22Mar2025 17:10:10.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> zzzzzzzzzzzzzzzzzzz
+[22Mar2025 17:10:12.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> zzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+[22Mar2025 17:10:14.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+[22Mar2025 17:10:41.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> jaime pofavo estoy en un bosque cerrao como no duermas me van a dar pal pelo
+[22Mar2025 17:11:20.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> alleluyah
+[22Mar2025 17:11:21.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jjailock> zzzzz
+[22Mar2025 17:11:25.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> :'D
+[22Mar2025 17:11:33.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jjailock> te estaba escaneando eso
+[22Mar2025 17:11:38.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jjailock> puedes dis
+[22Mar2025 17:11:38.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> ahh
+[22Mar2025 17:11:41.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> grasia
+[22Mar2025 17:12:34.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jjailock> quieres un loto negro?
+[22Mar2025 17:12:39.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> :U
+[22Mar2025 17:12:43.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> de donde lo has sacao?
+[22Mar2025 17:12:52.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jjailock> no se estaba en mis cofres
+[22Mar2025 17:13:05.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> es la planta más rara de todo el botania by far
+[22Mar2025 17:13:09.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> si lo quiero
+[22Mar2025 17:13:18.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> dejalo en los cofres
+[22Mar2025 17:14:50.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SF_KindPrime> buscando una formación de minas he encotrado una jungla de rebote
+[22Mar2025 17:18:20.731] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
+[22Mar2025 17:18:20.732] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
+[22Mar2025 17:18:20.733] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
+[22Mar2025 17:18:20.733] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
+[22Mar2025 17:18:20.733] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
+[22Mar2025 17:18:20.734] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
+[22Mar2025 17:18:20.734] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
+[22Mar2025 17:18:20.734] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
+[22Mar2025 17:18:20.734] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
+[22Mar2025 17:21:57.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jjailock> zzzzz

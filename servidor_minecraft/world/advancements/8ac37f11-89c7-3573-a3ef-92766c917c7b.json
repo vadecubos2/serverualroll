@@ -25,6 +25,7 @@
       "minecraft:deep_cold_ocean": "2025-03-20 23:48:23 +0000",
       "minecraft:frozen_ocean": "2025-03-13 15:51:02 +0000",
       "minecraft:deep_frozen_ocean": "2025-03-13 15:52:39 +0000",
+      "minecraft:jungle": "2025-03-22 17:15:58 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-03-13 15:52:37 +0000",
       "minecraft:snowy_beach": "2025-03-13 15:48:16 +0000",
       "minecraft:old_growth_birch_forest": "2025-03-20 23:51:55 +0000",
@@ -8450,9 +8451,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2025-03-22 17:16:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_candle": {
+    "criteria": {
+      "has_purple_dye": "2025-03-22 17:03:32 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/misc/petal_pink": {
     "criteria": {
       "has_item": "2025-03-22 16:56:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_purple_dye": "2025-03-22 17:03:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2025-03-22 17:16:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/hot_cocoa": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-22 17:16:00 +0000"
     },
     "done": true
   },
@@ -8522,9 +8553,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dye_purple_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-03-22 17:03:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-03-22 17:03:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cracked_nether_bricks": {
     "criteria": {
       "has_nether_bricks": "2025-03-22 16:52:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-03-22 17:03:32 +0000"
     },
     "done": true
   },
@@ -8537,6 +8586,12 @@
   "botania:recipes/misc/petal_gray_double": {
     "criteria": {
       "has_item": "2025-03-22 16:56:08 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dye_purple": {
+    "criteria": {
+      "has_the_recipe": "2025-03-22 17:03:31 +0000"
     },
     "done": true
   },
