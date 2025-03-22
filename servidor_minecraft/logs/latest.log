@@ -8,3 +8,17 @@
 [22Mar2025 00:16:25.951] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
 [22Mar2025 00:16:25.952] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
 [22Mar2025 00:16:25.952] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
+[22Mar2025 00:23:03.813] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jjailock lost connection: Disconnected
+[22Mar2025 00:23:03.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock left the game
+[22Mar2025 00:24:55.387] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jjailock[/127.69.28.83:56219] logged in with entity id 20249 at (-1786.2782793819267, 63.0, 970.5099715411417)
+[22Mar2025 00:24:55.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jjailock joined the game
+[22Mar2025 00:24:55.411] [Server thread/INFO] [Jade/]: Syncing config to jjailock (f04a067b-35a2-3157-b5a3-d0e9ae627fba)
+[22Mar2025 00:24:56.213] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-41, z=-18}
+[22Mar2025 00:24:56.214] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8, y=-40, z=-12}
+[22Mar2025 00:24:56.214] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-16, y=-37, z=-15}
+[22Mar2025 00:24:56.214] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-22}
+[22Mar2025 00:24:56.215] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=14, y=-39, z=-8}
+[22Mar2025 00:24:56.215] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-37, z=-11}
+[22Mar2025 00:24:56.215] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-18}
+[22Mar2025 00:24:56.215] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=17, y=-38, z=-12}
+[22Mar2025 00:24:56.216] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=18, y=-38, z=-17}
